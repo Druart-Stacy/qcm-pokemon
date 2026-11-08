@@ -1,0 +1,454 @@
+[
+    {
+        "num": 1,
+        "question": "Quel est-ce Pokémon?",
+        "img": "images/pm25.icon.png",
+        "rep1":"Pikachu",
+        "rep2":"Salaméche",
+        "rep3":"Carapuce",
+        "BonneRep": 1,
+        "lvl": 1
+        
+    },
+        {
+        "num": 2,
+        "question": ".Combien d'évolution possède Evoli?",
+        "rep1":"9",
+        "rep2":"8",
+        "rep3":"7",
+        "BonneRep": 2,
+        "lvl": 2
+        
+    },
+    {
+        "num": 3,
+        "question": "Quels sont les starters de Kanto?",
+        "rep1":"Carapuce ,Salaméche ,Bulbizarre,Evoli,Pikachu",
+        "rep2":"Kaiminus,Héricendre,Germignon,Evoli,Pikachu",
+        "rep3":"Poussifeu,Gobu,Arcko,Pikachu,Evoli",
+        "BonneRep": 1,
+        "lvl": 1
+    },
+    
+    {
+        "num": 4,
+        "question": "Qui est le chef de la Team Rocket?",
+        "lvl": 1
+    },
+    {
+        "num": 5,
+        "question": "Contre quel type est efficace le type eau",
+        "rep1":" Feu,Sol ,Roche ",
+        "rep2":"Electrique,Vol,Fée",
+        "rep3":"Spectre,Ténébre,Glace",
+        "BonneRep": 1,
+        "lvl": 1
+    },
+     {
+        "num": 6,
+        "question": "Quel Pokémon peut méga évoluer ?",
+        "rep1":"Lockpin ",
+        "rep2":"Pikachu",
+        "rep3":"Voltali",
+        "BonneRep": 1,
+        "lvl": 1
+    },
+    {
+        "num": 7,
+        "question": "Combien de yeux possède Nosférapti",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 3,
+        "lvl": 1
+    },
+     {
+        "num": 8,
+        "question": "Quel type est efficace contre le type  Dragon",
+        "rep1":"Vol,Ténébre ",
+        "rep2":"Feu,Roche",
+        "rep3":"Fée,Glace",
+        "BonneRep": 3,
+        "lvl": 1
+    },
+    {
+        "num": 9,
+        "question": "De quel type est Miaouss?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 10,
+        "question": "Comment peut-on différencier un Pikachu mâle d'un Pikachu femelle ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+    {
+        "num": 11,
+        "question": "1. Quel est le Pokémon n°151?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 12,
+        "question": "Quel Pokémon a la forme d’un trousseau de clef ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+    {
+        "num": 13,
+        "question": "Quel Pokémon a la forme d’un trousseau de clef ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 14,
+        "question": " Combien de Pokémon possède la 1er génération ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 15,
+        "question": "Où se trouve le Parc Safari/ GO parc?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 16,
+        "question": "Quel objets sert à attraper un Pokémon ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 17,
+        "question": "Comment s'appelle le starter feu de la 7 g?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 18,
+        "question": "Cité les 2 objets  phyique qui permet de capturer les pokemon et faire tourner les pokéstop",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 19,
+        "question": "Quel Pokémon dort et mange tous les temps ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 20,
+        "question": "De quel type est l’arène de   Pierre?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 21,
+        "question": "36.Comment faire éclore des œufs?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 22,
+        "question": "Comment s'appelle le starter feu de la 4e génération ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 23,
+        "question": "Quelle est l'évolution de  Coconford",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+    {
+        "num": 24,
+        "question": "De quels couleurs est l’écrémeuh bleu de Blanche?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+    {
+        "num": 25,
+        "question": "Qu’est-ce qui se trouve au centrede Paldea ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"le Cratère de Paldea /Zone 0 ",
+        "BonneRep": 3,
+        "lvl": 1
+    },
+    {
+        "num": 26,
+        "question": "En quelle année a été créer Pokémon?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+    {
+        "num": 27,
+        "question": "Qui accompagne toujours Jessy et James ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+    {
+        "num": 28,
+        "question": "Quel Pokémon peut prendre  possession des objets ?",
+        "rep1":"2 ",
+        "rep2":"Montisma",
+        "rep3":"0",
+        "BonneRep": 2,
+        "lvl": 1
+    },
+    {
+        "num": 29,
+        "question": "Quel Pokémon existe-t-il en contrefaçon ?",
+        "rep1":"Monopale ",
+        "rep2":"Trousselin ",
+        "rep3":"Théffroi",
+        "BonneRep": 3,
+        "lvl": 1
+    },
+    {
+        "num": 30,
+        "question": "Quel Ball n'existe pas ",
+        "rep1":"Basket Ball ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 1,
+        "lvl": 1
+    },
+    {
+        "num": 31,
+        "question": "Quel Pokémon n'existe pas ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"minitosteur ",
+        "BonneRep": 3,
+        "lvl": 1
+    },
+    {
+        "num": 32,
+        "question": "Quel est le 1er Pokémon du Pokédex National?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 33,
+        "question": "Ce Pokémon est de couleur arcs-en-ciel, de qui s’agit-il ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 34,
+        "question": "Quel est le type de l'arène du Major Bob?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+     {
+        "num": 35,
+        "question": "Ou trouve-t-on le Léviator chromatique sur Or  Argent?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+    {
+        "num": 36,
+        "question": "Quel est l’application qui permet des Pokémon dans la rue?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 37,
+        "question": "Sur quel support est sorti pokemon soleil et lune?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 38,
+        "question": "Quel Pokémon aime chanter ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 39,
+        "question": "Combien d îles possède la région d'Al oula?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 2,
+        "lvl": 1
+    },
+      {
+        "num": 40,
+        "question": "Quel Pokémon est entre Otaria et Tadmorv   dan le  Pokédex?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 1
+    },
+      {
+        "num": 41,
+        "question": "",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 2
+    },
+      {
+        "num": 42,
+        "question": "",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 2
+    },
+    {
+        "num": 43,
+        "question": "",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 2
+    },
+    {
+        "num": 44,
+        "question": "",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 2
+    },
+    {
+        "num": 45,
+        "question": "",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 2
+    },
+    {
+        "num": 46,
+        "question": "",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 2
+    },
+     {
+        "num": 362,
+        "question": "Cette Ultra-Chimère ressemble à uneorigami ,de qui s’agit-il ?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"Katagamin",
+        "BonneRep": 3,
+        "lvl": 1
+    },
+    
+      {
+        "num": 333,
+        "question": "Ce Pokémon ADN possède 4  formes différentes de qui s’agit-il?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 2
+    },
+    {
+        "num": 1000000,
+        "question": ".Quel Pokémon ne trouvons pas  dans le Bois de Clairjour?",
+        "rep1":"Mystherbe",
+        "rep2":"Racaillou",
+        "rep3":"Debugant",
+        "BonneRep": 2,
+        "lvl": 2
+    },
+     {
+        "num": 223,
+        "question": "Sur quel console est sorti le  pokedex 3d?",
+        "rep1":"2 ",
+        "rep2":"4",
+        "rep3":"0",
+        "BonneRep": 0,
+        "lvl": 2
+    }
+
+]   
