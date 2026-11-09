@@ -3,6 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .conteneur {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        #questionText {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .reponses {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .reponse-btn {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: left;
+        }
+
+        .reponse-btn:hover {
+            background-color: #e9e9e9;
+        }
+
+        .reponse-btn.correct {
+            background-color: #d4edda;
+            border-color: #28a745;
+            color: #155724;
+        }
+
+        .reponse-btn.incorrect {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+            color: #721c24;
+        }
+
+        #imageQuestion {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: none;
+        }
+
+        #monBouton {
+            padding: 12px 30px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #monBouton:hover {
+            background-color: #45a049;
+        }
+
+        #monBouton:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        #message {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            min-height: 27px;
+        }
+
+        #score {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteneur">
+        <h2 id="questionText">Chargement de la question...</h2>
+        <img id="imageQuestion" src="" alt="Question image">
+        <div class="reponses" id="reponses">
+            <!-- Les réponses seront injectées ici -->
+        </div>
+        <button id="monBouton">Suivant</button>
+        <p id="message"></p>
+        <p id="score">Score : 0 / 0</p>
+    </div>
+
+    <script>
+        // Variables globales
+        let questions = [];
+        let questionIndex = 0;
+        let score = 0;
+        let totalQuestions = 0;
+        let reponseSelectionnee = null;
+
+        // Éléments du DOM
+        const bouton = document.getElementById('monBouton');
+        const message = document.getElementById('message');
+        const questionText = document.getElementById('questionText');
+        const reponsesDiv = document.getElementById('reponses');
+        const imageQuestion = document.getElementById('imageQuestion');
+        const scoreElement = document.getElementById('score');
+
+        // Charger le fichier JSON
+        fetch("qcm.json")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Impossible de charger le fichier qcm.json");
+                }
+                return response.json();
+            })
+            .then(data => {
+                questions = data;
+                totalQuestions = data.length;
+                if (totalQuestions === 0) {
+                    questionText.textContent = "Aucune question disponible.";
+                    bouton.disabled = true;
+                    return;
+                }
+                afficherQuestion();
+            })
+            .catch(error => {
+                console.error("Erreur :", error);
+                questionText.textContent = "Erreur lors du chargement des questions.";
+                bouton.disabled = true;
+            });
+
+        // Afficher une question
+        function afficherQuestion() {
+            if (questionIndex >= questions.length) {
+                questionText.textContent = `Quiz terminé !`;
+                message.textContent = `Votre score final : ${score} / ${totalQuestions}`;
+                bouton.textContent = "Recommencer";
+                bouton.disabled = false;
+                reponsesDiv.innerHTML = '';
+                imageQuestion.style.display = 'none';
+                return;
+            }
+
+            const question = questions[questionIndex];
+            questionText.textContent = question.question;
+            message.textContent = '';
+            reponseSelectionnee = null;
+
+            // Afficher l'image si présente
+            if (question.img) {
+                imageQuestion.src = question.img;
+                imageQuestion.style.display = 'block';
+            } else {
+                imageQuestion.style.display = 'none';
+            }
+
+            // Vider les anciennes réponses
+            reponsesDiv.innerHTML = '';
+
+            // Créer les boutons de réponse
+            const reponses = [question.rep1, question.rep2, question.rep3, question.rep4];
+            const bonnesReponses = Array.isArray(question.bonneReponse) 
+                ? question.bonneReponse 
+                : [question.bonneReponse];
+
+            reponses.forEach((reponse, index) => {
+                if (reponse) {
+                    const btn = document.createElement('button');
+                    btn.className = 'reponse-btn';
+                    btn.textContent = reponse;
+                    btn.addEventListener('click', () => verifierReponse(index, bonnesReponses, btn));
+                    reponsesDiv.appendChild(btn);
+                }
+            });
+
+            // Mettre à jour le bouton
+            bouton.textContent = questionIndex < questions.length - 1 ? "Suivant" : "Terminer";
+            bouton.disabled = true;
+        }
+
+        // Vérifier la réponse
+        function verifierReponse(index, bonnesReponses, btn) {
+            if (reponseSelectionnee !== null) return; // Déjà répondu
+            reponseSelectionnee = index;
+
+            const boutons = reponsesDiv.querySelectorAll('.reponse-btn');
+
+            if (bonnesReponses.includes(index)) {
+                btn.classList.add('correct');
+                score++;
+                message.textContent = "✅ Bonne réponse !";
+                message.style.color = "#28a745";
+            } else {
+                btn.classList.add('incorrect');
+                message.textContent = "❌ Mauvaise réponse !";
+                message.style.color = "#dc3545";
+                // Montrer la bonne réponse
+                bonnesReponses.forEach(idx => {
+                    boutons[idx].classList.add('correct');
+                });
+            }
+
+            // Désactiver tous les boutons
+            boutons.forEach(b => b.disabled = true);
+            bouton.disabled = false;
+
+            // Mettre à jour le score
+            scoreElement.textContent = `Score : ${score} / ${questionIndex + 1}`;
+        }
+
+        // Événement click sur le bouton
+        bouton.addEventListener('click', function() {
+            if (questionIndex < questions.length && reponseSelectionnee !== null) {
+                questionIndex++;
+                afficherQuestion();
+            } else if (questionIndex >= questions.length) {
+                // Recommencer le quiz
+                questionIndex = 0;
+                score = 0;
+                scoreElement.textContent = `Score : 0 / ${totalQuestions}`;
+                afficherQuestion();
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/script.js"></script>
@@ -11,8 +267,11 @@
 <body>
     <div class="contenaire">
         <div class="">
+            <button id="monBouton">
+                next
+            </button>
 
         </div>
     </div>
 </body>
-</html>
+</html> -->
