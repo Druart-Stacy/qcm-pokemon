@@ -1,1886 +1,4687 @@
-[
-    {
-        "num": 1,
-        "question": "Quel Pokémon est représenté sur l’image n°25 du Pokédex national ?",
-        "img": "images/pm25.icon.png",
-        "rep1": "Pikachu",
-        "rep2": "Salamèche",
-        "rep3": "Carapuce",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Pikachu porte le numéro 25 du Pokédex national.",
-        "actif": true
-    },
-    {
-        "num": 2,
-        "question": "Combien Évoli possède-t-il d'évolutions dans les jeux principaux ?",
-        "img": "",
-        "rep1": "9",
-        "rep2": "8",
-        "rep3": "7",
-        "BonneRep": 2,
-        "lvl": 2,
-        "info": "Évoli possède huit évolutions : Aquali, Voltali, Pyroli, Mentali, Noctali, Phyllali, Givrali et Nymphali.",
-        "actif": true
-    },
-    {
-        "num": 3,
-        "question": "Quels sont les trois Pokémon de départ de Kanto ?",
-        "img": "",
-        "rep1": "Bulbizarre, Salamèche et Carapuce",
-        "rep2": "Kaiminus, Héricendre et Germignon",
-        "rep3": "Arcko, Poussifeu et Gobou",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Pikachu est le partenaire de départ dans Pokémon Jaune. Dans cette version, le rival reçoit Évoli.",
-        "actif": true
-    },
-    {
-        "num": 4,
-        "question": "Qui dirige la Team Rocket dans les jeux de la première génération ?",
-        "img": "",
-        "rep1": "Giovanni",
-        "rep2": "Auguste",
-        "rep3": "Léo",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Giovanni est le chef de la Team Rocket.",
-        "actif": true
-    },
-    {
-        "num": 5,
-        "question": "Contre quels types le type Eau est-il super efficace ?",
-        "img": "",
-        "rep1": "Feu, Sol et Roche",
-        "rep2": "Électrik, Vol et Fée",
-        "rep3": "Spectre, Ténèbres et Glace",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Le type Eau est super efficace contre Feu, Sol et Roche.",
-        "actif": true
-    },
-    {
-        "num": 6,
-        "question": "Lequel de ces Pokémon peut méga-évoluer ?",
-        "img": "",
-        "rep1": "Lockpin",
-        "rep2": "Pikachu",
-        "rep3": "Voltali",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Lockpin possède une Méga-Évolution.",
-        "actif": true
-    },
-    {
-        "num": 7,
-        "question": "Combien d'yeux Nosferapti possède-t-il ?",
-        "img": "",
-        "rep1": "2",
-        "rep2": "4",
-        "rep3": "Aucun",
-        "BonneRep": 3,
-        "lvl": 1,
-        "info": "Nosferapti n'a pas d'yeux visibles.",
-        "actif": true
-    },
-    {
-        "num": 8,
-        "question": "Quels types sont super efficaces contre le type Dragon ?",
-        "img": "",
-        "rep1": "Vol et Ténèbres",
-        "rep2": "Feu et Roche",
-        "rep3": "Fée et Glace",
-        "BonneRep": 3,
-        "lvl": 1,
-        "info": "Le type Dragon est faible face aux types Glace, Fée et Dragon.",
-        "actif": true
-    },
-    {
-        "num": 9,
-        "question": "De quel type est Miaouss dans sa forme de Kanto ?",
-        "img": "",
-        "rep1": "Normal",
-        "rep2": "Ténèbres",
-        "rep3": "Normal et Ténèbres",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Le Miaouss de Kanto est de type Normal. Celui d'Alola est de type Ténèbres et celui de Galar est de type Acier.",
-        "actif": true
-    },
-    {
-        "num": 10,
-        "question": "Comment différencie-t-on un Pikachu mâle d'un Pikachu femelle ?",
-        "img": "",
-        "rep1": "La femelle a une queue en forme de cœur",
-        "rep2": "Le mâle a les joues plus rouges",
-        "rep3": "La femelle a les oreilles plus longues",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Chez Pikachu, la femelle a le bout de la queue en forme de cœur.",
-        "actif": true
-    },
-    {
-        "num": 11,
-        "question": "Quel Pokémon porte le numéro 151 dans le Pokédex national ?",
-        "img": "",
-        "rep1": "Mew",
-        "rep2": "Mewtwo",
-        "rep3": "Mélodelfe",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Mew est le Pokémon n°151.",
-        "actif": true
-    },
-    {
-        "num": 12,
-        "question": "Quel Pokémon ressemble à un trousseau de clés ?",
-        "img": "",
-        "rep1": "Trousselin",
-        "rep2": "Monorpale",
-        "rep3": "Ténéfix",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Trousselin est inspiré d'un trousseau de clés.",
-        "actif": true
-    },
-    {
-        "num": 13,
-        "question": "Combien de Pokémon compte la première génération ?",
-        "img": "",
-        "rep1": "150",
-        "rep2": "151",
-        "rep3": "152",
-        "BonneRep": 2,
-        "lvl": 1,
-        "info": "Le Pokédex de Kanto compte 151 entrées, en incluant Mew.",
-        "actif": true
-    },
-    {
-        "num": 14,
-        "question": "Dans quelle ville se trouve le GO Parc dans Pokémon : Let's Go, Pikachu et Évoli ?",
-        "img": "",
-        "rep1": "Parmanie",
-        "rep2": "Azuria",
-        "rep3": "Céladopole",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le GO Parc se trouve à Parmanie.",
-        "actif": true
-    },
-    {
-        "num": 15,
-        "question": "Quel objet utilise-t-on principalement pour capturer des Pokémon ?",
-        "img": "",
-        "rep1": "Une Poké Ball",
-        "rep2": "Une Potion",
-        "rep3": "Un Rappel",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Les Poké Balls servent à capturer les Pokémon.",
-        "actif": true
-    },
-    {
-        "num": 16,
-        "question": "Comment s'appelle le starter de type Feu de la septième génération ?",
-        "img": "",
-        "rep1": "Flamiaou",
-        "rep2": "Brindibou",
-        "rep3": "Otaquin",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Flamiaou est le starter Feu d'Alola.",
-        "actif": true
-    },
-    {
-        "num": 17,
-        "question": "Quels accessoires Pokémon GO permettent de jouer sans regarder constamment son téléphone ?",
-        "img": "",
-        "rep1": "Pokémon GO Plus et Poké Ball Plus",
-        "rep2": "Nintendo 3DS et stylet",
-        "rep3": "Poké Radar et Multi Exp",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le Pokémon GO Plus et la Poké Ball Plus peuvent notamment faire tourner les PokéStops et aider à capturer des Pokémon.",
-        "actif": true
-    },
-    {
-        "num": 18,
-        "question": "Quel Pokémon est connu pour dormir et manger énormément ?",
-        "img": "",
-        "rep1": "Ronflex",
-        "rep2": "Évoli",
-        "rep3": "Canarticho",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Ronflex est célèbre pour son sommeil et son appétit.",
-        "actif": true
-    },
-    {
-        "num": 19,
-        "question": "De quel type est l'arène de Pierre à Argenta ?",
-        "img": "",
-        "rep1": "Roche",
-        "rep2": "Eau",
-        "rep3": "Sol",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Pierre est spécialisé dans le type Roche.",
-        "actif": true
-    },
-    {
-        "num": 20,
-        "question": "Comment fait-on éclore un œuf dans les jeux principaux ?",
-        "img": "",
-        "rep1": "En marchant avec l'œuf dans l'équipe",
-        "rep2": "En utilisant une Pierre Feu",
-        "rep3": "En le donnant à un Centre Pokémon",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Les œufs éclosent après un certain nombre de pas.",
-        "actif": true
-    },
-    {
-        "num": 21,
-        "question": "Comment s'appelle le starter Feu de la quatrième génération ?",
-        "img": "",
-        "rep1": "Ouisticram",
-        "rep2": "Tiplouf",
-        "rep3": "Tortipouss",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Ouisticram est le starter Feu de Sinnoh.",
-        "actif": true
-    },
-    {
-        "num": 22,
-        "question": "Quelle est l'évolution de Coconfort ?",
-        "img": "",
-        "rep1": "Dardargnan",
-        "rep2": "Papilusion",
-        "rep3": "Aspicot",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Coconfort évolue en Dardargnan.",
-        "actif": true
-    },
-    {
-        "num": 23,
-        "question": "De quelle couleur est Écrémeuh dans Pokémon Or et Argent ?",
-        "img": "",
-        "rep1": "Rose",
-        "rep2": "Bleu et blanc",
-        "rep3": "Vert et jaune",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Écrémeuh est rose et blanc dans les jeux. La formulation initiale « Écrémeuh bleu » prêtait à confusion.",
-        "actif": false
-    },
-    {
-        "num": 24,
-        "question": "Qu'est-ce qui se trouve au centre de la région de Paldea ?",
-        "img": "",
-        "rep1": "Le Cratère de Paldea",
-        "rep2": "La Tour de Combat",
-        "rep3": "Le Mont Couronné",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le Cratère de Paldea abrite la Zone Zéro.",
-        "actif": true
-    },
-    {
-        "num": 25,
-        "question": "En quelle année le premier jeu Pokémon est-il sorti au Japon ?",
-        "img": "",
-        "rep1": "1996",
-        "rep2": "1998",
-        "rep3": "2000",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Pokémon Rouge et Vert sont sortis au Japon en 1996.",
-        "actif": true
-    },
-    {
-        "num": 26,
-        "question": "Qui accompagne Jessie et James dans l'équipe Rocket de l'anime ?",
-        "img": "",
-        "rep1": "Miaouss",
-        "rep2": "Pikachu",
-        "rep3": "Psykokwak",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Miaouss parle et accompagne souvent Jessie et James.",
-        "actif": true
-    },
-    {
-        "num": 27,
-        "question": "Quel Pokémon peut prendre possession d'objets et les manipuler ?",
-        "img": "",
-        "rep1": "Motisma",
-        "rep2": "Métamorph",
-        "rep3": "Mimigal",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Motisma peut prendre possession de certains appareils électriques.",
-        "actif": true
-    },
-    {
-        "num": 28,
-        "question": "Quel Pokémon est associé à une épée possédée ?",
-        "img": "",
-        "rep1": "Monorpale",
-        "rep2": "Trousselin",
-        "rep3": "Théffroi",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Monorpale est un Pokémon de type Acier/Spectre qui prend la forme d'une épée.",
-        "actif": true
-    },
-    {
-        "num": 29,
-        "question": "Lequel de ces noms ne correspond pas à une Ball officielle ?",
-        "img": "",
-        "rep1": "Basket Ball",
-        "rep2": "Honor Ball",
-        "rep3": "Sombre Ball",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Il n'existe pas de Ball officielle appelée Basket Ball.",
-        "actif": true
-    },
-    {
-        "num": 30,
-        "question": "Lequel de ces noms n'est pas celui d'un Pokémon officiel ?",
-        "img": "",
-        "rep1": "Minitosteur",
-        "rep2": "Mimitoss",
-        "rep3": "Moumouton",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Minitosteur n'est pas un Pokémon officiel.",
-        "actif": true
-    },
-    {
-        "num": 31,
-        "question": "Quel est le premier Pokémon du Pokédex national ?",
-        "img": "",
-        "rep1": "Bulbizarre",
-        "rep2": "Mew",
-        "rep3": "Salamèche",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Bulbizarre porte le numéro 001.",
-        "actif": true
-    },
-    {
-        "num": 32,
-        "question": "Quel Pokémon légendaire est associé à un arc-en-ciel ?",
-        "img": "",
-        "rep1": "Ho-Oh",
-        "rep2": "Lugia",
-        "rep3": "Rayquaza",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Ho-Oh est associé à l'arc-en-ciel et aux couleurs.",
-        "actif": true
-    },
-    {
-        "num": 33,
-        "question": "De quel type est l'arène de Major Bob ?",
-        "img": "",
-        "rep1": "Électrik",
-        "rep2": "Combat",
-        "rep3": "Acier",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Major Bob est le champion spécialisé dans le type Électrik.",
-        "actif": true
-    },
-    {
-        "num": 34,
-        "question": "Où trouve-t-on le Léviator rouge dans Pokémon Or et Argent ?",
-        "img": "",
-        "rep1": "Au Lac Colère",
-        "rep2": "Au Lac Vérité",
-        "rep3": "Au Lac Savoir",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le Léviator rouge apparaît au Lac Colère.",
-        "actif": true
-    },
-    {
-        "num": 35,
-        "question": "Quelle application permet de capturer des Pokémon dans le monde réel avec son téléphone ?",
-        "img": "",
-        "rep1": "Pokémon GO",
-        "rep2": "Pokémon HOME",
-        "rep3": "Pokémon Sleep",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Pokémon GO utilise la géolocalisation et la réalité augmentée.",
-        "actif": true
-    },
-    {
-        "num": 36,
-        "question": "Sur quelle console Pokémon Soleil et Lune sont-ils sortis ?",
-        "img": "",
-        "rep1": "Nintendo 3DS",
-        "rep2": "Nintendo Switch",
-        "rep3": "Game Boy Advance",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Soleil et Lune sont sortis sur Nintendo 3DS.",
-        "actif": true
-    },
-    {
-        "num": 37,
-        "question": "Quel Pokémon est célèbre pour son chant qui endort les autres ?",
-        "img": "",
-        "rep1": "Rondoudou",
-        "rep2": "Pikachu",
-        "rep3": "Caninos",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Le chant de Rondoudou endort souvent ceux qui l'entendent.",
-        "actif": true
-    },
-    {
-        "num": 38,
-        "question": "Combien d'îles principales composent l'archipel d'Alola ?",
-        "img": "",
-        "rep1": "4",
-        "rep2": "5",
-        "rep3": "6",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Alola compte quatre îles naturelles principales : Mele-Mele, Akala, Ula-Ula et Poni. Le Paradis Æther est une île artificielle.",
-        "actif": true
-    },
-    {
-        "num": 39,
-        "question": "Quel Pokémon se trouve entre Otaria et Tadmorv dans le Pokédex de Kanto ?",
-        "img": "",
-        "rep1": "Lamantine",
-        "rep2": "Kokiyas",
-        "rep3": "Crustabri",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Dans le Pokédex national, Otaria porte le n° 086, Lamantine le n° 087 et Tadmorv le n° 088.",
-        "actif": true
-    },
-    {
-        "num": 40,
-        "question": "Pourquoi Pokémon Vert n'est-il pas sorti à l'origine en Occident ?",
-        "img": "",
-        "rep1": "Les versions occidentales étaient basées sur les versions Rouge et Bleue japonaises",
-        "rep2": "Le jeu était interdit",
-        "rep3": "La console n'était pas compatible",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "À l'international, les jeux ont été commercialisés sous les noms Rouge et Bleu, basés sur les versions japonaises Rouge et Vert.",
-        "actif": true
-    },
-    {
-        "num": 41,
-        "question": "Qui a créé la franchise Pokémon ?",
-        "img": "",
-        "rep1": "Satoshi Tajiri",
-        "rep2": "Shigeru Miyamoto",
-        "rep3": "Ken Sugimori",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Satoshi Tajiri est le créateur de Pokémon.",
-        "actif": true
-    },
-    {
-        "num": 42,
-        "question": "Dans quelles régions Pokémon GO permet-il principalement de trouver Chartor à l'état sauvage ?",
-        "img": "",
-        "rep1": "Asie du Sud et certaines régions voisines",
-        "rep2": "Europe uniquement",
-        "rep3": "Amérique du Nord uniquement",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Chartor est un Pokémon régional associé à l'Asie du Sud et à des zones voisines. Sa disponibilité peut varier selon les événements.",
-        "actif": true
-    },
-    {
-        "num": 43,
-        "question": "Comment appelle-t-on le Pokémon légendaire surnommé l'être du savoir ?",
-        "img": "",
-        "rep1": "Créhelf",
-        "rep2": "Créfollet",
-        "rep3": "Créfadet",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Créhelf représente le savoir.",
-        "actif": true
-    },
-    {
-        "num": 44,
-        "question": "Comment appelle-t-on le Pokémon légendaire surnommé l'être de l'émotion ?",
-        "img": "",
-        "rep1": "Créfollet",
-        "rep2": "Créhelf",
-        "rep3": "Créfadet",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Créfollet représente l'émotion.",
-        "actif": true
-    },
-    {
-        "num": 45,
-        "question": "Comment appelle-t-on le Pokémon légendaire surnommé l'être de la volonté ?",
-        "img": "",
-        "rep1": "Créfadet",
-        "rep2": "Créhelf",
-        "rep3": "Créfollet",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Créfadet représente la volonté.",
-        "actif": true
-    },
-    {
-        "num": 46,
-        "question": "Quelle Ultra-Chimère se nourrit d'électricité ?",
-        "img": "",
-        "rep1": "Câblifère",
-        "rep2": "Bamboiselle",
-        "rep3": "Mouscoto",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Câblifère absorbe l'électricité.",
-        "actif": true
-    },
-    {
-        "num": 47,
-        "question": "Quel Pokémon ne se trouve pas dans les Mines de Galar parmi ces choix ?",
-        "img": "",
-        "rep1": "Rototaupe",
-        "rep2": "Taupiqueur",
-        "rep3": "Racaillou",
-        "BonneRep": 3,
-        "lvl": 4,
-        "info": "Racaillou n'est pas présent dans les Mines de Galar de Pokémon Épée et Bouclier.",
-        "actif": true
-    },
-    {
-        "num": 48,
-        "question": "Quel Pokémon légendaire peut prendre une forme blanche ou noire grâce à la Pointe ADN ?",
-        "img": "",
-        "rep1": "Kyurem",
-        "rep2": "Zekrom",
-        "rep3": "Reshiram",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Kyurem peut fusionner avec Reshiram ou Zekrom pour devenir Kyurem Blanc ou Kyurem Noir.",
-        "actif": true
-    },
-    {
-        "num": 49,
-        "question": "Qui est le champion de l'arène de type Feu de Kanto ?",
-        "img": "",
-        "rep1": "Auguste",
-        "rep2": "Ondine",
-        "rep3": "Major Bob",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Auguste est le champion de l'arène de Cramois'Île.",
-        "actif": true
-    },
-    {
-        "num": 50,
-        "question": "En quelle année Pokémon : Let's Go, Pikachu et Let's Go, Évoli sont-ils sortis ?",
-        "img": "",
-        "rep1": "2016",
-        "rep2": "2018",
-        "rep3": "2020",
-        "BonneRep": 2,
-        "lvl": 2,
-        "info": "Les jeux sont sortis en 2018 sur Nintendo Switch.",
-        "actif": true
-    },
-    {
-        "num": 51,
-        "question": "Quels sont les deux premiers jeux Pokémon sortis au Japon ?",
-        "img": "",
-        "rep1": "Pokémon Rouge et Vert",
-        "rep2": "Pokémon Rouge et Bleu",
-        "rep3": "Pokémon Or et Argent",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Rouge et Vert sont sortis au Japon en février 1996.",
-        "actif": true
-    },
-    {
-        "num": 52,
-        "question": "Quel type est super efficace contre le type Normal ?",
-        "img": "",
-        "rep1": "Combat",
-        "rep2": "Spectre",
-        "rep3": "Dragon",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le type Combat est super efficace contre le type Normal.",
-        "actif": true
-    },
-    {
-        "num": 53,
-        "question": "Quel est le principe d'une Méga-Évolution ?",
-        "img": "",
-        "rep1": "Une transformation temporaire en combat",
-        "rep2": "Une évolution définitive par échange",
-        "rep3": "Une forme réservée aux Pokémon chromatiques",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "La Méga-Évolution transforme temporairement certains Pokémon pendant un combat.",
-        "actif": true
-    },
-    {
-        "num": 54,
-        "question": "Quel Pokémon porte le numéro 153 dans le Pokédex national ?",
-        "img": "",
-        "rep1": "Macronium",
-        "rep2": "Héricendre",
-        "rep3": "Germignon",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Macronium est le Pokémon n°153.",
-        "actif": true
-    },
-    {
-        "num": 55,
-        "question": "Quel objet permet à un Kirlia mâle d'évoluer en Gallame ?",
-        "img": "",
-        "rep1": "Pierre Aube",
-        "rep2": "Pierre Lune",
-        "rep3": "Pierre Soleil",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Un Kirlia mâle évolue en Gallame avec une Pierre Aube.",
-        "actif": true
-    },
-    {
-        "num": 56,
-        "question": "Quel Pokémon est considéré comme le dieu créateur dans la mythologie Pokémon ?",
-        "img": "",
-        "rep1": "Arceus",
-        "rep2": "Mewtwo",
-        "rep3": "Dialga",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Arceus est présenté comme le créateur de l'univers Pokémon.",
-        "actif": true
-    },
-    {
-        "num": 57,
-        "question": "Quel Pokémon légendaire de type Feu/Acier vit dans un volcan ?",
-        "img": "",
-        "rep1": "Heatran",
-        "rep2": "Entei",
-        "rep3": "Groudon",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Heatran est de type Feu/Acier.",
-        "actif": true
-    },
-    {
-        "num": 58,
-        "question": "Quel Pokémon est le chef du trio des génies dans les jeux ?",
-        "img": "",
-        "rep1": "Boréas",
-        "rep2": "Fulguris",
-        "rep3": "Démétéros",
-        "BonneRep": 3,
-        "lvl": 3,
-        "info": "Démétéros est généralement considéré comme le chef du trio des génies. Il est de type Sol/Vol.",
-        "actif": true
-    },
-    {
-        "num": 59,
-        "question": "Quel Pokémon fabuleux a été modifié génétiquement par la Team Plasma ?",
-        "img": "",
-        "rep1": "Genesect",
-        "rep2": "Mew",
-        "rep3": "Jirachi",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Genesect est un Pokémon fabuleux ancien modifié par la Team Plasma.",
-        "actif": true
-    },
-    {
-        "num": 60,
-        "question": "Quel Pokémon légendaire contrôle l'espace ?",
-        "img": "",
-        "rep1": "Palkia",
-        "rep2": "Dialga",
-        "rep3": "Giratina",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Palkia contrôle l'espace.",
-        "actif": true
-    },
-    {
-        "num": 61,
-        "question": "De quels types est Ramoloss dans sa forme de Kanto ?",
-        "img": "",
-        "rep1": "Eau et Psy",
-        "rep2": "Eau et Roche",
-        "rep3": "Psy uniquement",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Ramoloss de Kanto est de type Eau/Psy.",
-        "actif": true
-    },
-    {
-        "num": 62,
-        "question": "Quel Pokémon se trouve au sommet du phare d'Oliville dans Pokémon Or et Argent ?",
-        "img": "",
-        "rep1": "Pharamp",
-        "rep2": "Lanturn",
-        "rep3": "Électrode",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Pharamp éclaire le phare d'Oliville.",
-        "actif": true
-    },
-    {
-        "num": 63,
-        "question": "Dans quels jeux les Pokémontures d'Alola apparaissent-elles pour la première fois ?",
-        "img": "",
-        "rep1": "Soleil et Lune",
-        "rep2": "Noir et Blanc",
-        "rep3": "Épée et Bouclier",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Les Pokémontures sont introduites dans Pokémon Soleil et Lune.",
-        "actif": true
-    },
-    {
-        "num": 64,
-        "question": "De quelle couleur sont les cheveux d'Auguste ?",
-        "img": "",
-        "rep1": "Rouges",
-        "rep2": "Verts",
-        "rep3": "Aucune de ces propositions",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Auguste est représenté avec des cheveux rouges.",
-        "actif": true
-    },
-    {
-        "num": 65,
-        "question": "Quel Pokémon peut évoluer à partir d'une pomme ?",
-        "img": "",
-        "rep1": "Verpom",
-        "rep2": "Pommeau",
-        "rep3": "Ceribou",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Verpom évolue en différentes formes selon l'objet utilisé.",
-        "actif": true
-    },
-    {
-        "num": 66,
-        "question": "Quel Pokémon a le talent Multitype et peut changer de type grâce aux Plaques ?",
-        "img": "",
-        "rep1": "Arceus",
-        "rep2": "Silvally",
-        "rep3": "Métamorph",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Le talent Multitype d'Arceus lui permet de changer de type avec les Plaques.",
-        "actif": true
-    },
-    {
-        "num": 67,
-        "question": "Quels Pokémon sont les compagnons principaux de Chloé dans l'anime ?",
-        "img": "",
-        "rep1": "Évoli et Voltoutou",
-        "rep2": "Pikachu et Miaouss",
-        "rep3": "Piplup et Lucario",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Chloé voyage notamment avec Évoli et Voltoutou dans l'anime Pokémon Journeys.",
-        "actif": true
-    },
-    {
-        "num": 68,
-        "question": "Quelle Ultra-Chimère est connue pour sa force musculaire impressionnante ?",
-        "img": "",
-        "rep1": "Mouscoto",
-        "rep2": "Câblifère",
-        "rep3": "Zéroïd",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Mouscoto est une Ultra-Chimère à la musculature impressionnante.",
-        "actif": true
-    },
-    {
-        "num": 69,
-        "question": "Quelle Ultra-Chimère a un appétit insatiable ?",
-        "img": "",
-        "rep1": "Aéroptéryx",
-        "rep2": "Engloutyran",
-        "rep3": "Bamboiselle",
-        "BonneRep": 2,
-        "lvl": 3,
-        "info": "Engloutyran est connu pour tout dévorer.",
-        "actif": true
-    },
-    {
-        "num": 70,
-        "question": "Quel Pokémon légendaire est surnommé le roi des terres dans certaines descriptions ?",
-        "img": "",
-        "rep1": "Groudon",
-        "rep2": "Kyogre",
-        "rep3": "Rayquaza",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Groudon est associé aux continents et aux terres.",
-        "actif": true
-    },
-    {
-        "num": 71,
-        "question": "Comment appelle-t-on la gemme qui apparaît au-dessus d'un Pokémon téracristallisé ?",
-        "img": "",
-        "rep1": "Joyau Téracristal",
-        "rep2": "Pierre Dynamax",
-        "rep3": "Cristal Z",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le Joyau Téracristal apparaît au-dessus du Pokémon pendant la Téracristallisation.",
-        "actif": true
-    },
-    {
-        "num": 72,
-        "question": "Sur quelle console Pokémon Dash est-il sorti ?",
-        "img": "",
-        "rep1": "Nintendo DS",
-        "rep2": "Game Boy Advance",
-        "rep3": "Nintendo 3DS",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Pokémon Dash est sorti sur Nintendo DS.",
-        "actif": true
-    },
-    {
-        "num": 73,
-        "question": "Combien de nouveaux Pokémon la troisième génération a-t-elle introduits ?",
-        "img": "",
-        "rep1": "135",
-        "rep2": "134",
-        "rep3": "151",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "La troisième génération introduit 135 Pokémon, du n°252 au n°386.",
-        "actif": true
-    },
-    {
-        "num": 74,
-        "question": "Comment s'appelait le projet à l'origine de Pokémon ?",
-        "img": "",
-        "rep1": "Capsule Monsters",
-        "rep2": "Pocket Fighters",
-        "rep3": "Monster Quest",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Le concept initial de Satoshi Tajiri était connu sous le nom de Capsule Monsters.",
-        "actif": true
-    },
-    {
-        "num": 75,
-        "question": "Quel Pokémon est un programme informatique vivant ?",
-        "img": "",
-        "rep1": "Porygon",
-        "rep2": "Magnéti",
-        "rep3": "Mew",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Porygon est un Pokémon artificiel créé à partir de données informatiques.",
-        "actif": true
-    },
-    {
-        "num": 76,
-        "question": "Contre quels types le type Fée est-il faible ?",
-        "img": "",
-        "rep1": "Acier et Poison",
-        "rep2": "Feu et Eau",
-        "rep3": "Combat et Insecte",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le type Fée est faible face aux types Acier et Poison.",
-        "actif": true
-    },
-    {
-        "num": 77,
-        "question": "Quel Pokémon peut provoquer des vents violents et possède plusieurs formes liées aux saisons ?",
-        "img": "",
-        "rep1": "Boréas",
-        "rep2": "Démétéros",
-        "rep3": "Fulguris",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Boréas est associé au vent et possède une forme Avatar et une forme Totémique.",
-        "actif": true
-    },
-    {
-        "num": 78,
-        "question": "Comment s'appelle la forme spéciale de l'Amphinobi de Sacha ?",
-        "img": "",
-        "rep1": "Sachanobi",
-        "rep2": "Amphinobi-Z",
-        "rep3": "Grenininja X",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "La forme liée à Sacha est appelée Sachanobi.",
-        "actif": true
-    },
-    {
-        "num": 79,
-        "question": "Quel Pokémon peut utiliser Morphing en plus de Métamorph dans certains jeux ?",
-        "img": "",
-        "rep1": "Mew",
-        "rep2": "Pikachu",
-        "rep3": "Ronflex",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Mew peut apprendre Morphing dans certains jeux grâce à des moyens particuliers; la question dépend du jeu concerné.",
-        "actif": true
-    },
-    {
-        "num": 80,
-        "question": "De quel type est la première arène de Johto, dirigée par Albert ?",
-        "img": "",
-        "rep1": "Vol",
-        "rep2": "Normal",
-        "rep3": "Insecte",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Albert, à Mauville, est spécialisé dans le type Vol.",
-        "actif": true
-    },
-    {
-        "num": 81,
-        "question": "Quel Pokémon James possède-t-il pendant son enfance dans l'anime ?",
-        "img": "",
-        "rep1": "Caninos",
-        "rep2": "Smogo",
-        "rep3": "Empiflor",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "James possède un Caninos pendant son enfance. Smogo devient ensuite l'un de ses Pokémon emblématiques au sein de la Team Rocket.",
-        "actif": true
-    },
-    {
-        "num": 82,
-        "question": "Quel Pokémon est formé de cellules qui se rassemblent ?",
-        "img": "",
-        "rep1": "Zygarde",
-        "rep2": "Mewtwo",
-        "rep3": "Deoxys",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Zygarde possède des formes composées d'un nombre variable de cellules.",
-        "actif": true
-    },
-    {
-        "num": 83,
-        "question": "Combien de nouveaux Pokémon la septième génération a-t-elle introduits ?",
-        "img": "",
-        "rep1": "88",
-        "rep2": "87",
-        "rep3": "81",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "La septième génération a introduit 88 nouveaux Pokémon.",
-        "actif": true
-    },
-    {
-        "num": 84,
-        "question": "Combien de jeux Pokémon Stadium principaux sont sortis sur Nintendo 64 ?",
-        "img": "",
-        "rep1": "2",
-        "rep2": "3",
-        "rep3": "4",
-        "BonneRep": 2,
-        "lvl": 3,
-        "info": "Pokémon Stadium et Pokémon Stadium 2 sont les deux épisodes principaux sortis à l'international sur Nintendo 64.Mai un opu upplementaire et orti au japon pokemon tadium 0",
-        "actif": true
-    },
-    {
-        "num": 85,
-        "question": "Quel Pokémon est souvent difficile à trouver dans Pokémon GO en dehors des événements ?",
-        "img": "",
-        "rep1": "Zarbi",
-        "rep2": "Rattata",
-        "rep3": "Roucool",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Zarbi apparaît rarement et souvent lors d'événements. La rareté varie selon les événements et les régions.",
-        "actif": true
-    },
-    {
-        "num": 86,
-        "question": "Lequel de ces Pokémon est exclusivement mâle dans les jeux principaux ?",
-        "img": "",
-        "rep1": "Écrémeuh",
-        "rep2": "Leuphorie",
-        "rep3": "Tauros",
-        "BonneRep": 3,
-        "lvl": 2,
-        "info": "Tauros est exclusivement mâle. Écrémeuh et Leuphorie sont exclusivement femelles.",
-        "actif": true
-    },
-    {
-        "num": 87,
-        "question": "Quel est l'intrus : Lewsor, Psykokwak ou Alakazam ?",
-        "img": "",
-        "rep1": "Lewsor",
-        "rep2": "Psykokwak",
-        "rep3": "Alakazam",
-        "BonneRep": 2,
-        "lvl": 3,
-        "info": "Psykokwak n'est pas de type Psy, contrairement à Lewsor et Alakazam.",
-        "actif": true
-    },
-    {
-        "num": 88,
-        "question": "Comment obtient-on un œuf de Nidoran dans les jeux où sa reproduction est possible ?",
-        "img": "",
-        "rep1": "Avec un Nidoran femelle ou l'une de ses évolutions",
-        "rep2": "Avec un Nidoran mâle ou l'une de ses évolutions",
-        "rep3": "Avec un Nidoqueen et un Nidoking",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Dans les jeux où la reproduction est possible, un Nidoran femelle ou une de ses évolutions peut produire un œuf de Nidoran. Les règles exactes dépendent du jeu.",
-        "actif": true
-    },
-    {
-        "num": 89,
-        "question": "Quel est le pourcentage de femelles chez la plupart des Pokémon de départ ?",
-        "img": "",
-        "rep1": "12,5 %",
-        "rep2": "50 %",
-        "rep3": "25 %",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "La plupart des starters ont un ratio de 7 mâles pour 1 femelle, soit 12,5 %.",
-        "actif": true
-    },
-    {
-        "num": 90,
-        "question": "Quel Pokémon fabuleux est associé aux cauchemars ?",
-        "img": "",
-        "rep1": "Darkrai",
-        "rep2": "Jirachi",
-        "rep3": "Celebi",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Darkrai est associé aux cauchemars.",
-        "actif": true
-    },
-    {
-        "num": 91,
-        "question": "Quels jeux Pokémon principaux sont sortis en Corée du Sud en premier parmi ces choix ?",
-        "img": "",
-        "rep1": "Pokémon Or et Argent",
-        "rep2": "Pokémon Noir et Blanc",
-        "rep3": "Pokémon Rouge et Bleu",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "La chronologie de sortie coréenne varie selon les versions et les générations; cette question doit être vérifiée selon le sens exact recherché.",
-        "actif": false
-    },
-    {
-        "num": 92,
-        "question": "Lequel de ces Pokémon n'est pas disponible dans Pokémon Épée et Bouclier ?",
-        "img": "",
-        "rep1": "Solochi",
-        "rep2": "Azurill",
-        "rep3": "Queulorior",
-        "BonneRep": 3,
-        "lvl": 3,
-        "info": "Queulorior n'est pas disponible dans Épée et Bouclier.",
-        "actif": true
-    },
-    {
-        "num": 93,
-        "question": "Comment s'appelle le Pikachu de Richie dans l'anime ?",
-        "img": "",
-        "rep1": "Sparky",
-        "rep2": "Pika",
-        "rep3": "Volt",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Le Pikachu de Richie s'appelle Sparky.",
-        "actif": true
-    },
-    {
-        "num": 94,
-        "question": "Quelle Ball utilise Sacha pour capturer Kaiminus dans l'anime ?",
-        "img": "",
-        "rep1": "Appât Ball",
-        "rep2": "Rapide Ball",
-        "rep3": "Lune Ball",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Sacha utilise une Appât Ball pour capturer Kaiminus.",
-        "actif": true
-    },
-    {
-        "num": 95,
-        "question": "Quelle génération possède un Pokédex régional qui ne commence pas par un starter ?",
-        "img": "",
-        "rep1": "Cinquième génération",
-        "rep2": "Quatrième génération",
-        "rep3": "Sixième génération",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Le Pokédex régional d'Unys commence par Victini (n°000) dans le Pokédex d'Unys de Noir et Blanc.",
-        "actif": true
-    },
-    {
-        "num": 96,
-        "question": "Quel Pokémon fabuleux conserve un Animacœur dans son corps mécanique ?",
-        "img": "",
-        "rep1": "Magearna",
-        "rep2": "Genesect",
-        "rep3": "Meltan",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Magearna abrite un Animacœur dans son corps mécanique.",
-        "actif": true
-    },
-    {
-        "num": 97,
-        "question": "Quel Pokémon fabuleux possède le talent Sérénité ?",
-        "img": "",
-        "rep1": "Jirachi",
-        "rep2": "Mew",
-        "rep3": "Celebi",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Jirachi possède le talent Sérénité.",
-        "actif": true
-    },
-    {
-        "num": 98,
-        "question": "Quel Pokémon légendaire est surnommé le roi des mers ?",
-        "img": "",
-        "rep1": "Kyogre",
-        "rep2": "Groudon",
-        "rep3": "Lugia",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Kyogre est associé aux océans et aux mers.",
-        "actif": true
-    },
-    {
-        "num": 99,
-        "question": "Quel est le taux de shiny par œuf en septième génération avec Masuda et le Charme Chroma ?",
-        "img": "",
-        "rep1": "Environ 1/512",
-        "rep2": "Environ 1/683",
-        "rep3": "Environ 1/4096",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Avec la méthode Masuda et le Charme Chroma dans les jeux de septième génération, les chances sont d'environ 1 sur 512.",
-        "actif": true
-    },
-    {
-        "num": 100,
-        "question": "Combien de villes et de villages principaux trouve-t-on dans la région de Hoenn dans Pokémon Rubis et Saphir ?",
-        "img": "",
-        "rep1": "16",
-        "rep2": "14",
-        "rep3": "18",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Le décompte peut varier selon qu'on inclut les lieux secondaires; préciser la liste ou le jeu pour une réponse parfaitement univoque.",
-        "actif": false
-    },
-    {
-        "num": 101,
-        "question": "Quel Pokémon de type Eau est connu pour purifier l'eau ?",
-        "img": "",
-        "rep1": "Suicune",
-        "rep2": "Kyogre",
-        "rep3": "Manaphy",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Suicune est associé à la purification de l'eau.",
-        "actif": true
-    },
-    {
-        "num": 102,
-        "question": "Quel est l'intrus : Mewtwo, Mentali ou Salamèche ?",
-        "img": "",
-        "rep1": "Mewtwo",
-        "rep2": "Mentali",
-        "rep3": "Salamèche",
-        "BonneRep": 3,
-        "lvl": 2,
-        "info": "Salamèche est le seul des trois qui n'est pas de type Psy et dont le nom ne commence pas par M.",
-        "actif": true
-    },
-    {
-        "num": 103,
-        "question": "Quelle est la répartition des sexes chez Heatran ?",
-        "img": "",
-        "rep1": "50 % mâle et 50 % femelle",
-        "rep2": "100 % mâle",
-        "rep3": "100 % femelle",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Heatran a un ratio de 50 % mâle et 50 % femelle.",
-        "actif": true
-    },
-    {
-        "num": 104,
-        "question": "Quel est l'intrus : Dialga, Heatran ou Entei ?",
-        "img": "",
-        "rep1": "Dialga",
-        "rep2": "Heatran",
-        "rep3": "Entei",
-        "BonneRep": 3,
-        "lvl": 3,
-        "info": "Entei est le seul des trois qui n'est pas de type Acier; Dialga et Heatran possèdent le type Acier.",
-        "actif": true
-    },
-    {
-        "num": 105,
-        "question": "Combien de joueurs participent à un raid Téracristal dans Écarlate et Violet ?",
-        "img": "",
-        "rep1": "4",
-        "rep2": "5",
-        "rep3": "20",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Un raid Téracristal se joue à quatre participants au maximum.",
-        "actif": true
-    },
-    {
-        "num": 106,
-        "question": "Quelle Ultra-Chimère ressemble à un origami ?",
-        "img": "",
-        "rep1": "Katagami",
-        "rep2": "Bamboiselle",
-        "rep3": "Zéroïd",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Katagami ressemble à une figure d'origami.",
-        "actif": true
-    },
-    {
-        "num": 107,
-        "question": "Quel Pokémon ADN possède plusieurs formes selon les météorites utilisées ?",
-        "img": "",
-        "rep1": "Deoxys",
-        "rep2": "Porygon",
-        "rep3": "Genesect",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Deoxys possède quatre formes : normale, attaque, défense et vitesse.",
-        "actif": true
-    },
-    {
-        "num": 108,
-        "question": "Quel Pokémon ne trouve-t-on pas dans le Bois de Clairjour parmi ces choix ?",
-        "img": "",
-        "rep1": "Mystherbe",
-        "rep2": "Racaillou",
-        "rep3": "Debugant",
-        "BonneRep": 3,
-        "lvl": 4,
-        "info": "La disponibilité dépend de la version et de la zone exacte; à vérifier avant publication.",
-        "actif": false
-    },
-    {
-        "num": 109,
-        "question": "Comment s'appelle le gardien de l'île de Mele-Mele ?",
-        "img": "",
-        "rep1": "Tokorico",
-        "rep2": "Tokopiyon",
-        "rep3": "Tokotoro",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Tokorico protège Mele-Mele.",
-        "actif": true
-    },
-    {
-        "num": 110,
-        "question": "En quelle année Pokémon Sleep est-il sorti ?",
-        "img": "",
-        "rep1": "2023",
-        "rep2": "2022",
-        "rep3": "2024",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Pokémon Sleep a été lancé en 2023.",
-        "actif": true
-    },
-    {
-        "num": 111,
-        "question": "Quel est l'intrus : Ursaring, Mentali ou Mélo ?",
-        "img": "",
-        "rep1": "Ursaring",
-        "rep2": "Mentali",
-        "rep3": "Mélo",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Ursaring est le seul dont le nom commence par U; cette question repose sur le jeu de lettres, pas sur les types.",
-        "actif": true
-    },
-    {
-        "num": 112,
-        "question": "Quel est le type préféré de Madame Élige ?",
-        "img": "",
-        "rep1": "Combat",
-        "rep2": "Psy",
-        "rep3": "Fée",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Question liée à un personnage précis : à confirmer selon la source ou le jeu auquel tu fais référence.",
-        "actif": false
-    },
-    {
-        "num": 113,
-        "question": "En quelle année Pokémon X et Y sont-ils sortis, et sur quelle console ?",
-        "img": "",
-        "rep1": "2013 sur Nintendo 3DS",
-        "rep2": "2012 sur Nintendo DS",
-        "rep3": "2014 sur Nintendo Switch",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Pokémon X et Y sont sortis en 2013 sur Nintendo 3DS.",
-        "actif": true
-    },
-    {
-        "num": 114,
-        "question": "Dans quel film Pikachu prononce-t-il des mots compréhensibles par les humains ?",
-        "img": "",
-        "rep1": "Pokémon : Détective Pikachu",
-        "rep2": "Le pouvoir est en nous",
-        "rep3": "Jirachi, le génie des vœux",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Dans Détective Pikachu, Pikachu parle de façon compréhensible à Tim. Dans le film « Je te choisis », la scène est différente et ambiguë.",
-        "actif": true
-    },
-    {
-        "num": 115,
-        "question": "Quel Pokémon porte le numéro 258 dans le Pokédex national ?",
-        "img": "",
-        "rep1": "Gobou",
-        "rep2": "Flobio",
-        "rep3": "Laggron",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Gobou est le Pokémon n°258.",
-        "actif": true
-    },
-    {
-        "num": 116,
-        "question": "Quel est le numéro national de Suicune ?",
-        "img": "",
-        "rep1": "245",
-        "rep2": "244",
-        "rep3": "243",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Suicune porte le numéro 245.",
-        "actif": true
-    },
-    {
-        "num": 117,
-        "question": "En quelle année a été diffusé le premier épisode de l'anime dans lequel apparaît Embrylex ?",
-        "img": "",
-        "rep1": "2001",
-        "rep2": "1999",
-        "rep3": "2003",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "",
-        "actif": false
-    },
-    {
-        "num": 118,
-        "question": "Quelle est la première ville visitée par le joueur dans Hoenn ?",
-        "img": "",
-        "rep1": "Bourg-en-Vol",
-        "rep2": "Clémenti-Ville",
-        "rep3": "Mérouville",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le joueur commence son aventure à Bourg-en-Vol.",
-        "actif": true
-    },
-    {
-        "num": 119,
-        "question": "Quelle est la ville natale du héros de Kanto ?",
-        "img": "",
-        "rep1": "Bourg Palette",
-        "rep2": "Jadielle",
-        "rep3": "Argenta",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Le héros commence son aventure à Bourg Palette.",
-        "actif": true
-    },
-    {
-        "num": 120,
-        "question": "En quelle année Pokémon Écarlate et Violet sont-ils sortis ?",
-        "img": "",
-        "rep1": "2022",
-        "rep2": "2021",
-        "rep3": "2023",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Les jeux sont sortis en novembre 2022.",
-        "actif": true
-    },
-    {
-        "num": 121,
-        "question": "Combien de générations principales de Pokémon étaient sorties en 2026 ?",
-        "img": "",
-        "rep1": "9",
-        "rep2": "10",
-        "rep3": "8",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "À la date de référence 2026, neuf générations principales sont sorties.",
-        "actif": true
-    },
-    {
-        "num": 122,
-        "question": "Contre quels types le type Feu est-il super efficace ?",
-        "img": "",
-        "rep1": "Plante, Glace, Insecte et Acier",
-        "rep2": "Eau, Roche et Sol",
-        "rep3": "Dragon, Feu et Poison",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le type Feu est super efficace contre Plante, Glace, Insecte et Acier.",
-        "actif": true
-    },
-    {
-        "num": 123,
-        "question": "Quel Pokémon ressemble à un lion ?",
-        "img": "",
-        "rep1": "Némélios",
-        "rep2": "Luxray",
-        "rep3": "Arcanin",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Némélios est inspiré d'un lion.",
-        "actif": true
-    },
-    {
-        "num": 124,
-        "question": "Quel est le nom de la première ville de Sinnoh ?",
-        "img": "",
-        "rep1": "Bonaugure",
-        "rep2": "Féli-Cité",
-        "rep3": "Joliberges",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le joueur commence à Bonaugure.",
-        "actif": true
-    },
-    {
-        "num": 125,
-        "question": "Contre quels types le type Roche est-il super efficace ?",
-        "img": "",
-        "rep1": "Vol, Insecte, Feu et Glace",
-        "rep2": "Eau, Plante, Sol et Combat",
-        "rep3": "Psy, Spectre et Dragon",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le type Roche est super efficace contre Vol, Insecte, Feu et Glace.",
-        "actif": true
-    },
-    {
-        "num": 126,
-        "question": "Quel Pokémon de type Psy peut voyager dans le temps ?",
-        "img": "",
-        "rep1": "Celebi",
-        "rep2": "Jirachi",
-        "rep3": "Victini",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Celebi est associé au voyage dans le temps.",
-        "actif": true
-    },
-    {
-        "num": 127,
-        "question": "Quel Pokémon Éon ressent les émotions des humains ?",
-        "img": "",
-        "rep1": "Latias",
-        "rep2": "Latios",
-        "rep3": "Deoxys",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Latias peut ressentir les émotions des humains.",
-        "actif": true
-    },
-    {
-        "num": 128,
-        "question": "Quel Pokémon Éon de type Dragon/Psy peut voler plus vite qu'un avion à réaction ?",
-        "img": "",
-        "rep1": "Latios",
-        "rep2": "Latias",
-        "rep3": "Rayquaza",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Latios est décrit comme capable de voler à une vitesse supérieure à celle d'un avion à réaction.",
-        "actif": true
-    },
-    {
-        "num": 129,
-        "question": "Quelle Ultra-Chimère peut évoluer ?",
-        "img": "",
-        "rep1": "Vémini",
-        "rep2": "Zéroïd",
-        "rep3": "Câblifère",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Vémini évolue en Mandrillon sous certaines conditions.",
-        "actif": true
-    },
-    {
-        "num": 130,
-        "question": "Quelle est l'évolution de Vémini ?",
-        "img": "",
-        "rep1": "Mandrillon",
-        "rep2": "Mouscoto",
-        "rep3": "Bamboiselle",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Mandrillon est l'évolution de Vémini.",
-        "actif": true
-    },
-    {
-        "num": 131,
-        "question": "Quel Pokémon légendaire contrôle le temps ?",
-        "img": "",
-        "rep1": "Dialga",
-        "rep2": "Palkia",
-        "rep3": "Giratina",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Dialga contrôle le temps.",
-        "actif": true
-    },
-    {
-        "num": 132,
-        "question": "Quel Pokémon légendaire a été banni dans le Monde Distorsion ?",
-        "img": "",
-        "rep1": "Giratina",
-        "rep2": "Dialga",
-        "rep3": "Palkia",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Giratina est associé au Monde Distorsion.",
-        "actif": true
-    },
-    {
-        "num": 133,
-        "question": "Quel Pokémon de type Dragon/Vol peut méga-évoluer et se nourrit de météorites ?",
-        "img": "",
-        "rep1": "Rayquaza",
-        "rep2": "Dracolosse",
-        "rep3": "Salamence",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Rayquaza peut méga-évoluer et absorbe des météorites.",
-        "actif": true
-    },
-    {
-        "num": 134,
-        "question": "Quel Pokémon d'Alola évolue en Silvallié ?",
-        "img": "",
-        "rep1": "Type:0",
-        "rep2": "Métamorph",
-        "rep3": "Meltan",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Type:0 évolue en Silvallié lorsque son bonheur est suffisamment élevé.",
-        "actif": true
-    },
-    {
-        "num": 135,
-        "question": "Quel Pokémon légendaire figure sur la jaquette de Pokémon Perle ?",
-        "img": "",
-        "rep1": "Palkia",
-        "rep2": "Dialga",
-        "rep3": "Giratina",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Palkia apparaît sur la jaquette de Pokémon Perle.",
-        "actif": true
-    },
-    {
-        "num": 136,
-        "question": "Comment s'appelle le bateau qui part de Carmin sur Mer dans les jeux de Kanto ?",
-        "img": "",
-        "rep1": "L'Océane",
-        "rep2": "Le Sainte-Anne",
-        "rep3": "Le Marina",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le bateau est appelé le S.S. Anne en anglais et l'Océane dans les versions françaises classiques.",
-        "actif": true
-    },
-    {
-        "num": 137,
-        "question": "Comment s'appelle la grotte où l'on peut capturer Mewtwo dans les jeux de Kanto ?",
-        "img": "",
-        "rep1": "Grotte Inconnue",
-        "rep2": "Mont Sélénite",
-        "rep3": "Grotte de la Route Victoire",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "La Grotte Inconnue se trouve près d'Azuria.",
-        "actif": true
-    },
-    {
-        "num": 138,
-        "question": "Quel est le prénom japonais de Sacha ?",
-        "img": "",
-        "rep1": "Satoshi",
-        "rep2": "Shigeru",
-        "rep3": "Takeshi",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Sacha s'appelle Satoshi en japonais.",
-        "actif": true
-    },
-    {
-        "num": 139,
-        "question": "Quel Pokémon se trouve entre Cizayox et Scarhino dans le Pokédex national ?",
-        "img": "",
-        "rep1": "Caratroc",
-        "rep2": "Scarabrute",
-        "rep3": "Insecateur",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Caratroc porte le n° 213 dans le Pokédex national, entre Cizayox (n° 212) et Scarhino (n° 214).",
-        "actif": true
-    },
-    {
-        "num": 140,
-        "question": "Combien de Pokémon étaient répertoriés après la neuvième génération, jusqu'à Terapagos inclus ?",
-        "img": "",
-        "rep1": "1 024",
-        "rep2": "1 008",
-        "rep3": "1 010",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Le Pokédex national compte 1 024 Pokémon jusqu'à Terapagos inclus.",
-        "actif": true
-    },
-    {
-        "num": 141,
-        "question": "De quel bandit célèbre les noms Jessie et James sont-ils inspirés ?",
-        "img": "",
-        "rep1": "Jesse James",
-        "rep2": "Billy the Kid",
-        "rep3": "Butch Cassidy",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Le duo anglais Jessie et James fait référence au bandit Jesse James.",
-        "actif": true
-    },
-    {
-        "num": 142,
-        "question": "Quel est le taux de rencontre d'un Pokémon chromatique obtenu par œuf en septième génération sans bonus ?",
-        "img": "",
-        "rep1": "1/4096",
-        "rep2": "1/2048",
-        "rep3": "1/512",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Sans bonus Masuda ni Charme Chroma, le taux de base est de 1/4096.",
-        "actif": true
-    },
-    {
-        "num": 143,
-        "question": "Sur quelle console est sorti Pokémon : Attrapez les nombres ! ?",
-        "img": "",
-        "rep1": "Sega Pico",
-        "rep2": "Game Boy Color",
-        "rep3": "Nintendo DS",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Le jeu éducatif Pokémon : Attrapez les nombres ! est sorti sur Sega Pico.",
-        "actif": true
-    },
-    {
-        "num": 144,
-        "question": "Dans quelles versions les Ultra-Chimères ont-elles été introduites ?",
-        "img": "",
-        "rep1": "Pokémon Soleil et Lune",
-        "rep2": "Pokémon X et Y",
-        "rep3": "Pokémon Épée et Bouclier",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Les Ultra-Chimères apparaissent dans Soleil et Lune.",
-        "actif": true
-    },
-    {
-        "num": 145,
-        "question": "Quelle est l'évolution d'Insolourdo ?",
-        "img": "",
-        "rep1": "Deusolourdo",
-        "rep2": "Dudunsparce",
-        "rep3": "Dunseraph",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Insolourdo évolue en Deusolourdo dans Écarlate et Violet.",
-        "actif": true
-    },
-    {
-        "num": 146,
-        "question": "De quel type est l'arène de Mérouville ?",
-        "img": "",
-        "rep1": "Roche",
-        "rep2": "Plante",
-        "rep3": "Combat",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Roxanne, à Mérouville, est spécialisée dans le type Roche.",
-        "actif": true
-    },
-    {
-        "num": 147,
-        "question": "Quel Pokémon possède une bouche décrite comme mesurant deux mètres de diamètre ?",
-        "img": "",
-        "rep1": "Hippodocus",
-        "rep2": "Bourrinos",
-        "rep3": "Mammochon",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Cette question semble reprendre une description de Pokédex; vérifie la formulation exacte de la source avant publication.",
-        "actif": false
-    },
-    {
-        "num": 148,
-        "question": "Quel Pokémon apparaît dans l'épisode 762 de l'anime selon le découpage international ?",
-        "img": "",
-        "rep1": "Léopardus",
-        "rep2": "Zéblitz",
-        "rep3": "Clamiral",
-        "BonneRep": 1,
-        "lvl": 4,
-        "info": "Le numéro d'épisode peut varier selon le découpage; vérifie le numéro et la saison de ta source.",
-        "actif": false
-    },
-    {
-        "num": 149,
-        "question": "Si une Poké Ball coûte 200 ₽, combien peut-on en acheter avec 2 000 ₽ ?",
-        "img": "",
-        "rep1": "10",
-        "rep2": "11",
-        "rep3": "12",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "2 000 ÷ 200 = 10. Le bonus d'une Honor Ball n'est pas systématique dans tous les jeux ou boutiques.",
-        "actif": true
-    },
-    {
-        "num": 150,
-        "question": "Quel Pokémon ne se trouve pas au Mont Sélénite parmi ces choix ?",
-        "img": "",
-        "rep1": "Racaillou",
-        "rep2": "Nosferapti",
-        "rep3": "Machoc",
-        "BonneRep": 3,
-        "lvl": 3,
-        "info": "La réponse donnée dans ta liste est Machoc; les rencontres peuvent dépendre du jeu concerné.",
-        "actif": true
-    },
-    {
-        "num": 151,
-        "question": "Lequel de ces Pokémon n'évolue pas ?",
-        "img": "",
-        "rep1": "Ronflex",
-        "rep2": "Pikachu",
-        "rep3": "Rondoudou",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Ronflex n'évolue pas. Pikachu et Rondoudou possèdent des évolutions/pré-évolutions dans la famille évolutive.",
-        "actif": true
-    },
-    {
-        "num": 152,
-        "question": "De quel type est Limonde dans sa forme de Galar ?",
-        "img": "",
-        "rep1": "Sol et Acier",
-        "rep2": "Électrik et Sol",
-        "rep3": "Eau et Sol",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Limonde de Galar est de type Sol/Acier; Limonde de Unys est Sol/Électrik.",
-        "actif": true
-    },
-    {
-        "num": 153,
-        "question": "Contre quels types le type Psy est-il super efficace ?",
-        "img": "",
-        "rep1": "Combat et Poison",
-        "rep2": "Spectre et Ténèbres",
-        "rep3": "Acier et Fée",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "Le type Psy est super efficace contre Combat et Poison.",
-        "actif": true
-    },
-    {
-        "num": 154,
-        "question": "Quel est le nom de la grotte située entre Argenta et Azuria ?",
-        "img": "",
-        "rep1": "Mont Sélénite",
-        "rep2": "Grotte Sombre",
-        "rep3": "Route Victoire",
-        "BonneRep": 1,
-        "lvl": 1,
-        "info": "Le Mont Sélénite relie les environs d'Argenta et d'Azuria.",
-        "actif": true
-    },
-    {
-        "num": 155,
-        "question": "Comment s'appelle la forêt entre Jadielle et Argenta ?",
-        "img": "",
-        "rep1": "Forêt de Jade",
-        "rep2": "Bois de Vestigion",
-        "rep3": "Forêt de Sleepwood",
-        "BonneRep": 1,
-        "lvl": 2,
-        "info": "La Forêt de Jade se trouve entre Jadielle et Argenta.",
-        "actif": true
-    },
-    {
-        "num": 156,
-        "question": "Depuis quelle génération M. Mime possède-t-il une pré-évolution ?",
-        "img": "",
-        "rep1": "Deuxième génération",
-        "rep2": "Première génération",
-        "rep3": "Quatrième génération",
-        "BonneRep": 3,
-        "lvl": 3,
-        "info": "Mime Jr., la pré-évolution de M. Mime, a été introduit dans la quatrième génération.",
-        "actif": true
-    },
-    {
-        "num": 157,
-        "question": "Quel Pokémon légendaire est associé à la région de Johto et aux tours jumelles ?",
-        "img": "",
-        "rep1": "Ho-Oh",
-        "rep2": "Lugia",
-        "rep3": "Suicune",
-        "BonneRep": 1,
-        "lvl": 3,
-        "info": "Ho-Oh est associé à la Tour Ferraille et à la renaissance des trois chiens légendaires.",
-        "actif": true
+{
+  "version": "4.4",
+  "questions": [
+    {
+      "id": 30001,
+      "topic": "Évolutions",
+      "level": "Facile",
+      "Question": "En quel Pokémon évolue Bulbizarre dans les jeux principaux ?",
+      "options": [
+        "Herbizarre",
+        "Florizarre",
+        "Carapuce",
+        "Reptincel"
+      ],
+      "correct": 0,
+      "explanation": "Bulbizarre évolue en Herbizarre.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Bulbasaur evolve into in the main games?",
+          "options": [
+            "Ivysaur",
+            "Venusaur",
+            "Squirtle",
+            "Charmeleon"
+          ],
+          "explanation": "Bulbasaur evolves into Ivysaur."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Bulbasaur in de hoofdspellen?",
+          "options": [
+            "Ivysaur",
+            "Venusaur",
+            "Squirtle",
+            "Charmeleon"
+          ],
+          "explanation": "Bulbasaur evolueert in Ivysaur."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Bisasam in den Hauptspielen?",
+          "options": [
+            "Bisaknosp",
+            "Bisaflor",
+            "Schiggy",
+            "Glutexo"
+          ],
+          "explanation": "Bisasam entwickelt sich zu Bisaknosp."
+        }
+      }
+    },
+    {
+      "id": 30002,
+      "topic": "Évolutions",
+      "level": "Facile",
+      "Question": "En quel Pokémon évolue Herbizarre dans les jeux principaux ?",
+      "options": [
+        "Tortank",
+        "Roucoups",
+        "Reptincel",
+        "Florizarre"
+      ],
+      "correct": 3,
+      "explanation": "Herbizarre évolue en Florizarre.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Ivysaur evolve into in the main games?",
+          "options": [
+            "Blastoise",
+            "Pidgeotto",
+            "Charmeleon",
+            "Venusaur"
+          ],
+          "explanation": "Ivysaur evolves into Venusaur."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Ivysaur in de hoofdspellen?",
+          "options": [
+            "Blastoise",
+            "Pidgeotto",
+            "Charmeleon",
+            "Venusaur"
+          ],
+          "explanation": "Ivysaur evolueert in Venusaur."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Bisaknosp in den Hauptspielen?",
+          "options": [
+            "Turtok",
+            "Tauboga",
+            "Glutexo",
+            "Bisaflor"
+          ],
+          "explanation": "Bisaknosp entwickelt sich zu Bisaflor."
+        }
+      }
+    },
+    {
+      "id": 30003,
+      "topic": "Évolutions",
+      "level": "Facile",
+      "Question": "En quel Pokémon évolue Salamèche dans les jeux principaux ?",
+      "options": [
+        "Carabaffe",
+        "Nosferalto",
+        "Reptincel",
+        "Dracaufeu"
+      ],
+      "correct": 2,
+      "explanation": "Salamèche évolue en Reptincel.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Charmander evolve into in the main games?",
+          "options": [
+            "Wartortle",
+            "Golbat",
+            "Charmeleon",
+            "Charizard"
+          ],
+          "explanation": "Charmander evolves into Charmeleon."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Charmander in de hoofdspellen?",
+          "options": [
+            "Wartortle",
+            "Golbat",
+            "Charmeleon",
+            "Charizard"
+          ],
+          "explanation": "Charmander evolueert in Charmeleon."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Glumanda in den Hauptspielen?",
+          "options": [
+            "Schillok",
+            "Golbat",
+            "Glutexo",
+            "Glurak"
+          ],
+          "explanation": "Glumanda entwickelt sich zu Glutexo."
+        }
+      }
+    },
+    {
+      "id": 30004,
+      "topic": "Évolutions",
+      "level": "Facile",
+      "Question": "En quel Pokémon évolue Reptincel dans les jeux principaux ?",
+      "options": [
+        "Florizarre",
+        "Dracaufeu",
+        "Arcanin",
+        "Tortank"
+      ],
+      "correct": 1,
+      "explanation": "Reptincel évolue en Dracaufeu.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Charmeleon evolve into in the main games?",
+          "options": [
+            "Venusaur",
+            "Charizard",
+            "Arcanine",
+            "Blastoise"
+          ],
+          "explanation": "Charmeleon evolves into Charizard."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Charmeleon in de hoofdspellen?",
+          "options": [
+            "Venusaur",
+            "Charizard",
+            "Arcanine",
+            "Blastoise"
+          ],
+          "explanation": "Charmeleon evolueert in Charizard."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Glutexo in den Hauptspielen?",
+          "options": [
+            "Bisaflor",
+            "Glurak",
+            "Arkani",
+            "Turtok"
+          ],
+          "explanation": "Glutexo entwickelt sich zu Glurak."
+        }
+      }
+    },
+    {
+      "id": 30005,
+      "topic": "Évolutions",
+      "level": "Facile",
+      "Question": "En quel Pokémon évolue Carapuce dans les jeux principaux ?",
+      "options": [
+        "Carabaffe",
+        "Tortank",
+        "Akwakwak",
+        "Roucoups"
+      ],
+      "correct": 0,
+      "explanation": "Carapuce évolue en Carabaffe.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Squirtle evolve into in the main games?",
+          "options": [
+            "Wartortle",
+            "Blastoise",
+            "Golduck",
+            "Pidgeotto"
+          ],
+          "explanation": "Squirtle evolves into Wartortle."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Squirtle in de hoofdspellen?",
+          "options": [
+            "Wartortle",
+            "Blastoise",
+            "Golduck",
+            "Pidgeotto"
+          ],
+          "explanation": "Squirtle evolueert in Wartortle."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Schiggy in den Hauptspielen?",
+          "options": [
+            "Schillok",
+            "Turtok",
+            "Entoron",
+            "Tauboga"
+          ],
+          "explanation": "Schiggy entwickelt sich zu Schillok."
+        }
+      }
+    },
+    {
+      "id": 30006,
+      "topic": "Évolutions",
+      "level": "Facile",
+      "Question": "En quel Pokémon évolue Carabaffe dans les jeux principaux ?",
+      "options": [
+        "Florizarre",
+        "Crustabri",
+        "Akwakwak",
+        "Tortank"
+      ],
+      "correct": 3,
+      "explanation": "Carabaffe évolue en Tortank.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Wartortle evolve into in the main games?",
+          "options": [
+            "Venusaur",
+            "Cloyster",
+            "Golduck",
+            "Blastoise"
+          ],
+          "explanation": "Wartortle evolves into Blastoise."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Wartortle in de hoofdspellen?",
+          "options": [
+            "Venusaur",
+            "Cloyster",
+            "Golduck",
+            "Blastoise"
+          ],
+          "explanation": "Wartortle evolueert in Blastoise."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Schillok in den Hauptspielen?",
+          "options": [
+            "Bisaflor",
+            "Austos",
+            "Entoron",
+            "Turtok"
+          ],
+          "explanation": "Schillok entwickelt sich zu Turtok."
+        }
+      }
+    },
+    {
+      "id": 30007,
+      "topic": "Évolutions",
+      "level": "Facile",
+      "Question": "En quel Pokémon évolue Chenipan dans les jeux principaux ?",
+      "options": [
+        "Roucoups",
+        "Nosferalto",
+        "Chrysacier",
+        "Coconfort"
+      ],
+      "correct": 2,
+      "explanation": "Chenipan évolue en Chrysacier.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Caterpie evolve into in the main games?",
+          "options": [
+            "Pidgeotto",
+            "Golbat",
+            "Metapod",
+            "Kakuna"
+          ],
+          "explanation": "Caterpie evolves into Metapod."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Caterpie in de hoofdspellen?",
+          "options": [
+            "Pidgeotto",
+            "Golbat",
+            "Metapod",
+            "Kakuna"
+          ],
+          "explanation": "Caterpie evolueert in Metapod."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Raupy in den Hauptspielen?",
+          "options": [
+            "Tauboga",
+            "Golbat",
+            "Safcon",
+            "Kokuna"
+          ],
+          "explanation": "Raupy entwickelt sich zu Safcon."
+        }
+      }
+    },
+    {
+      "id": 30008,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Aspicot dans les jeux principaux ?",
+      "options": [
+        "Nosferalto",
+        "Coconfort",
+        "Chrysacier",
+        "Roucoups"
+      ],
+      "correct": 1,
+      "explanation": "Aspicot évolue en Coconfort.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Weedle evolve into in the main games?",
+          "options": [
+            "Golbat",
+            "Kakuna",
+            "Metapod",
+            "Pidgeotto"
+          ],
+          "explanation": "Weedle evolves into Kakuna."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Weedle in de hoofdspellen?",
+          "options": [
+            "Golbat",
+            "Kakuna",
+            "Metapod",
+            "Pidgeotto"
+          ],
+          "explanation": "Weedle evolueert in Kakuna."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Hornliu in den Hauptspielen?",
+          "options": [
+            "Golbat",
+            "Kokuna",
+            "Safcon",
+            "Tauboga"
+          ],
+          "explanation": "Hornliu entwickelt sich zu Kokuna."
+        }
+      }
+    },
+    {
+      "id": 30009,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Roucool dans les jeux principaux ?",
+      "options": [
+        "Roucoups",
+        "Nosferalto",
+        "Carabaffe",
+        "Reptincel"
+      ],
+      "correct": 0,
+      "explanation": "Roucool évolue en Roucoups.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Pidgey evolve into in the main games?",
+          "options": [
+            "Pidgeotto",
+            "Golbat",
+            "Wartortle",
+            "Charmeleon"
+          ],
+          "explanation": "Pidgey evolves into Pidgeotto."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Pidgey in de hoofdspellen?",
+          "options": [
+            "Pidgeotto",
+            "Golbat",
+            "Wartortle",
+            "Charmeleon"
+          ],
+          "explanation": "Pidgey evolueert in Pidgeotto."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Taubsi in den Hauptspielen?",
+          "options": [
+            "Tauboga",
+            "Golbat",
+            "Schillok",
+            "Glutexo"
+          ],
+          "explanation": "Taubsi entwickelt sich zu Tauboga."
+        }
+      }
+    },
+    {
+      "id": 30010,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Nosferapti dans les jeux principaux ?",
+      "options": [
+        "Nostenfer",
+        "Spectrum",
+        "Roucoups",
+        "Nosferalto"
+      ],
+      "correct": 3,
+      "explanation": "Nosferapti évolue en Nosferalto.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Zubat evolve into in the main games?",
+          "options": [
+            "Crobat",
+            "Haunter",
+            "Pidgeotto",
+            "Golbat"
+          ],
+          "explanation": "Zubat evolves into Golbat."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Zubat in de hoofdspellen?",
+          "options": [
+            "Crobat",
+            "Haunter",
+            "Pidgeotto",
+            "Golbat"
+          ],
+          "explanation": "Zubat evolueert in Golbat."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Zubat in den Hauptspielen?",
+          "options": [
+            "Iksbat",
+            "Alpollo",
+            "Tauboga",
+            "Golbat"
+          ],
+          "explanation": "Zubat entwickelt sich zu Golbat."
+        }
+      }
+    },
+    {
+      "id": 30011,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Miaouss dans les jeux principaux ?",
+      "options": [
+        "Raichu",
+        "Feunard",
+        "Persian",
+        "Pikachu"
+      ],
+      "correct": 2,
+      "explanation": "Miaouss évolue en Persian.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Meowth evolve into in the main games?",
+          "options": [
+            "Raichu",
+            "Ninetales",
+            "Persian",
+            "Pikachu"
+          ],
+          "explanation": "Meowth evolves into Persian."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Meowth in de hoofdspellen?",
+          "options": [
+            "Raichu",
+            "Ninetales",
+            "Persian",
+            "Pikachu"
+          ],
+          "explanation": "Meowth evolueert in Persian."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Mauzi in den Hauptspielen?",
+          "options": [
+            "Raichu",
+            "Vulnona",
+            "Snobilikat",
+            "Pikachu"
+          ],
+          "explanation": "Mauzi entwickelt sich zu Snobilikat."
+        }
+      }
+    },
+    {
+      "id": 30012,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Psykokwak dans les jeux principaux ?",
+      "options": [
+        "Feunard",
+        "Akwakwak",
+        "Carabaffe",
+        "Tortank"
+      ],
+      "correct": 1,
+      "explanation": "Psykokwak évolue en Akwakwak.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Psyduck evolve into in the main games?",
+          "options": [
+            "Ninetales",
+            "Golduck",
+            "Wartortle",
+            "Blastoise"
+          ],
+          "explanation": "Psyduck evolves into Golduck."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Psyduck in de hoofdspellen?",
+          "options": [
+            "Ninetales",
+            "Golduck",
+            "Wartortle",
+            "Blastoise"
+          ],
+          "explanation": "Psyduck evolueert in Golduck."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Enton in den Hauptspielen?",
+          "options": [
+            "Vulnona",
+            "Entoron",
+            "Schillok",
+            "Turtok"
+          ],
+          "explanation": "Enton entwickelt sich zu Entoron."
+        }
+      }
+    },
+    {
+      "id": 30013,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Caninos dans les jeux principaux ?",
+      "options": [
+        "Arcanin",
+        "Feunard",
+        "Nostenfer",
+        "Tortank"
+      ],
+      "correct": 0,
+      "explanation": "Caninos évolue en Arcanin.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Growlithe evolve into in the main games?",
+          "options": [
+            "Arcanine",
+            "Ninetales",
+            "Crobat",
+            "Blastoise"
+          ],
+          "explanation": "Growlithe evolves into Arcanine."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Growlithe in de hoofdspellen?",
+          "options": [
+            "Arcanine",
+            "Ninetales",
+            "Crobat",
+            "Blastoise"
+          ],
+          "explanation": "Growlithe evolueert in Arcanine."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Fukano in den Hauptspielen?",
+          "options": [
+            "Arkani",
+            "Vulnona",
+            "Iksbat",
+            "Turtok"
+          ],
+          "explanation": "Fukano entwickelt sich zu Arkani."
+        }
+      }
+    },
+    {
+      "id": 30014,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Abra dans les jeux principaux ?",
+      "options": [
+        "Machopeur",
+        "Spectrum",
+        "Persian",
+        "Kadabra"
+      ],
+      "correct": 3,
+      "explanation": "Abra évolue en Kadabra.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Abra evolve into in the main games?",
+          "options": [
+            "Machoke",
+            "Haunter",
+            "Persian",
+            "Kadabra"
+          ],
+          "explanation": "Abra evolves into Kadabra."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Abra in de hoofdspellen?",
+          "options": [
+            "Machoke",
+            "Haunter",
+            "Persian",
+            "Kadabra"
+          ],
+          "explanation": "Abra evolueert in Kadabra."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Abra in den Hauptspielen?",
+          "options": [
+            "Maschock",
+            "Alpollo",
+            "Snobilikat",
+            "Kadabra"
+          ],
+          "explanation": "Abra entwickelt sich zu Kadabra."
+        }
+      }
+    },
+    {
+      "id": 30015,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Machoc dans les jeux principaux ?",
+      "options": [
+        "Roucoups",
+        "Spectrum",
+        "Machopeur",
+        "Kadabra"
+      ],
+      "correct": 2,
+      "explanation": "Machoc évolue en Machopeur.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Machop evolve into in the main games?",
+          "options": [
+            "Pidgeotto",
+            "Haunter",
+            "Machoke",
+            "Kadabra"
+          ],
+          "explanation": "Machop evolves into Machoke."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Machop in de hoofdspellen?",
+          "options": [
+            "Pidgeotto",
+            "Haunter",
+            "Machoke",
+            "Kadabra"
+          ],
+          "explanation": "Machop evolueert in Machoke."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Machollo in den Hauptspielen?",
+          "options": [
+            "Tauboga",
+            "Alpollo",
+            "Maschock",
+            "Kadabra"
+          ],
+          "explanation": "Machollo entwickelt sich zu Maschock."
+        }
+      }
+    },
+    {
+      "id": 30016,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Fantominus dans les jeux principaux ?",
+      "options": [
+        "Machopeur",
+        "Spectrum",
+        "Nosferalto",
+        "Kadabra"
+      ],
+      "correct": 1,
+      "explanation": "Fantominus évolue en Spectrum.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Gastly evolve into in the main games?",
+          "options": [
+            "Machoke",
+            "Haunter",
+            "Golbat",
+            "Kadabra"
+          ],
+          "explanation": "Gastly evolves into Haunter."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Gastly in de hoofdspellen?",
+          "options": [
+            "Machoke",
+            "Haunter",
+            "Golbat",
+            "Kadabra"
+          ],
+          "explanation": "Gastly evolueert in Haunter."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Nebulak in den Hauptspielen?",
+          "options": [
+            "Maschock",
+            "Alpollo",
+            "Golbat",
+            "Kadabra"
+          ],
+          "explanation": "Nebulak entwickelt sich zu Alpollo."
+        }
+      }
+    },
+    {
+      "id": 30017,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Magicarpe dans les jeux principaux ?",
+      "options": [
+        "Léviator",
+        "Staross",
+        "Crustabri",
+        "Tortank"
+      ],
+      "correct": 0,
+      "explanation": "Magicarpe évolue en Léviator.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Magikarp evolve into in the main games?",
+          "options": [
+            "Gyarados",
+            "Starmie",
+            "Cloyster",
+            "Blastoise"
+          ],
+          "explanation": "Magikarp evolves into Gyarados."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Magikarp in de hoofdspellen?",
+          "options": [
+            "Gyarados",
+            "Starmie",
+            "Cloyster",
+            "Blastoise"
+          ],
+          "explanation": "Magikarp evolueert in Gyarados."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Karpador in den Hauptspielen?",
+          "options": [
+            "Garados",
+            "Starmie",
+            "Austos",
+            "Turtok"
+          ],
+          "explanation": "Karpador entwickelt sich zu Garados."
+        }
+      }
+    },
+    {
+      "id": 30018,
+      "topic": "Évolutions",
+      "level": "Normal",
+      "Question": "En quel Pokémon évolue Pikachu dans les jeux principaux ?",
+      "options": [
+        "Voltali",
+        "Voltorbe",
+        "Roucoups",
+        "Raichu"
+      ],
+      "correct": 3,
+      "explanation": "Pikachu évolue en Raichu.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon does Pikachu evolve into in the main games?",
+          "options": [
+            "Jolteon",
+            "Voltorb",
+            "Pidgeotto",
+            "Raichu"
+          ],
+          "explanation": "Pikachu evolves into Raichu."
+        },
+        "nl": {
+          "Question": "In welke Pokémon evolueert Pikachu in de hoofdspellen?",
+          "options": [
+            "Jolteon",
+            "Voltorb",
+            "Pidgeotto",
+            "Raichu"
+          ],
+          "explanation": "Pikachu evolueert in Raichu."
+        },
+        "de": {
+          "Question": "Zu welchem Pokémon entwickelt sich Pikachu in den Hauptspielen?",
+          "options": [
+            "Blitza",
+            "Voltobal",
+            "Tauboga",
+            "Raichu"
+          ],
+          "explanation": "Pikachu entwickelt sich zu Raichu."
+        }
+      }
+    },
+    {
+      "id": 30019,
+      "topic": "Types Pokémon",
+      "level": "Facile",
+      "Question": "De quel type unique est Pikachu ?",
+      "options": [
+        "Eau",
+        "Feu",
+        "Normal",
+        "Électrik"
+      ],
+      "correct": 3,
+      "explanation": "Pikachu est un Pokémon de type Électrik.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Pikachu have?",
+          "options": [
+            "Water",
+            "Fire",
+            "Normal",
+            "Electric"
+          ],
+          "explanation": "Pikachu is a Electric-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Pikachu?",
+          "options": [
+            "Water",
+            "Fire",
+            "Normal",
+            "Electric"
+          ],
+          "explanation": "Pikachu is een Pokémon van het type Electric."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Pikachu?",
+          "options": [
+            "Wasser",
+            "Feuer",
+            "Normal",
+            "Elektro"
+          ],
+          "explanation": "Pikachu ist ein Pokémon vom Typ Elektro."
+        }
+      }
+    },
+    {
+      "id": 30020,
+      "topic": "Types Pokémon",
+      "level": "Facile",
+      "Question": "De quel type unique est Magicarpe ?",
+      "options": [
+        "Eau",
+        "Psy",
+        "Dragon",
+        "Combat"
+      ],
+      "correct": 0,
+      "explanation": "Magicarpe est un Pokémon de type Eau.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Magikarp have?",
+          "options": [
+            "Water",
+            "Psychic",
+            "Dragon",
+            "Fighting"
+          ],
+          "explanation": "Magikarp is a Water-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Magikarp?",
+          "options": [
+            "Water",
+            "Psychic",
+            "Dragon",
+            "Fighting"
+          ],
+          "explanation": "Magikarp is een Pokémon van het type Water."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Karpador?",
+          "options": [
+            "Wasser",
+            "Psycho",
+            "Drache",
+            "Kampf"
+          ],
+          "explanation": "Karpador ist ein Pokémon vom Typ Wasser."
+        }
+      }
+    },
+    {
+      "id": 30021,
+      "topic": "Types Pokémon",
+      "level": "Facile",
+      "Question": "De quel type unique est Caninos ?",
+      "options": [
+        "Plante",
+        "Feu",
+        "Glace",
+        "Roche"
+      ],
+      "correct": 1,
+      "explanation": "Caninos est un Pokémon de type Feu.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Growlithe have?",
+          "options": [
+            "Grass",
+            "Fire",
+            "Ice",
+            "Rock"
+          ],
+          "explanation": "Growlithe is a Fire-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Growlithe?",
+          "options": [
+            "Grass",
+            "Fire",
+            "Ice",
+            "Rock"
+          ],
+          "explanation": "Growlithe is een Pokémon van het type Fire."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Fukano?",
+          "options": [
+            "Pflanze",
+            "Feuer",
+            "Eis",
+            "Gestein"
+          ],
+          "explanation": "Fukano ist ein Pokémon vom Typ Feuer."
+        }
+      }
+    },
+    {
+      "id": 30022,
+      "topic": "Types Pokémon",
+      "level": "Facile",
+      "Question": "De quel type unique est Ronflex ?",
+      "options": [
+        "Feu",
+        "Électrik",
+        "Normal",
+        "Eau"
+      ],
+      "correct": 2,
+      "explanation": "Ronflex est un Pokémon de type Normal.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Snorlax have?",
+          "options": [
+            "Fire",
+            "Electric",
+            "Normal",
+            "Water"
+          ],
+          "explanation": "Snorlax is a Normal-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Snorlax?",
+          "options": [
+            "Fire",
+            "Electric",
+            "Normal",
+            "Water"
+          ],
+          "explanation": "Snorlax is een Pokémon van het type Normal."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Relaxo?",
+          "options": [
+            "Feuer",
+            "Elektro",
+            "Normal",
+            "Wasser"
+          ],
+          "explanation": "Relaxo ist ein Pokémon vom Typ Normal."
+        }
+      }
+    },
+    {
+      "id": 30023,
+      "topic": "Types Pokémon",
+      "level": "Facile",
+      "Question": "De quel type unique est Psykokwak ?",
+      "options": [
+        "Psy",
+        "Dragon",
+        "Combat",
+        "Eau"
+      ],
+      "correct": 3,
+      "explanation": "Psykokwak est un Pokémon de type Eau.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Psyduck have?",
+          "options": [
+            "Psychic",
+            "Dragon",
+            "Fighting",
+            "Water"
+          ],
+          "explanation": "Psyduck is a Water-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Psyduck?",
+          "options": [
+            "Psychic",
+            "Dragon",
+            "Fighting",
+            "Water"
+          ],
+          "explanation": "Psyduck is een Pokémon van het type Water."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Enton?",
+          "options": [
+            "Psycho",
+            "Drache",
+            "Kampf",
+            "Wasser"
+          ],
+          "explanation": "Enton ist ein Pokémon vom Typ Wasser."
+        }
+      }
+    },
+    {
+      "id": 30024,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Abra ?",
+      "options": [
+        "Psy",
+        "Glace",
+        "Roche",
+        "Plante"
+      ],
+      "correct": 0,
+      "explanation": "Abra est un Pokémon de type Psy.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Abra have?",
+          "options": [
+            "Psychic",
+            "Ice",
+            "Rock",
+            "Grass"
+          ],
+          "explanation": "Abra is a Psychic-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Abra?",
+          "options": [
+            "Psychic",
+            "Ice",
+            "Rock",
+            "Grass"
+          ],
+          "explanation": "Abra is een Pokémon van het type Psychic."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Abra?",
+          "options": [
+            "Psycho",
+            "Eis",
+            "Gestein",
+            "Pflanze"
+          ],
+          "explanation": "Abra ist ein Pokémon vom Typ Psycho."
+        }
+      }
+    },
+    {
+      "id": 30025,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Mew ?",
+      "options": [
+        "Électrik",
+        "Psy",
+        "Eau",
+        "Feu"
+      ],
+      "correct": 1,
+      "explanation": "Mew est un Pokémon de type Psy.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Mew have?",
+          "options": [
+            "Electric",
+            "Psychic",
+            "Water",
+            "Fire"
+          ],
+          "explanation": "Mew is a Psychic-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Mew?",
+          "options": [
+            "Electric",
+            "Psychic",
+            "Water",
+            "Fire"
+          ],
+          "explanation": "Mew is een Pokémon van het type Psychic."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Mew?",
+          "options": [
+            "Elektro",
+            "Psycho",
+            "Wasser",
+            "Feuer"
+          ],
+          "explanation": "Mew ist ein Pokémon vom Typ Psycho."
+        }
+      }
+    },
+    {
+      "id": 30026,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Mewtwo ?",
+      "options": [
+        "Dragon",
+        "Combat",
+        "Psy",
+        "Normal"
+      ],
+      "correct": 2,
+      "explanation": "Mewtwo est un Pokémon de type Psy.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Mewtwo have?",
+          "options": [
+            "Dragon",
+            "Fighting",
+            "Psychic",
+            "Normal"
+          ],
+          "explanation": "Mewtwo is a Psychic-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Mewtwo?",
+          "options": [
+            "Dragon",
+            "Fighting",
+            "Psychic",
+            "Normal"
+          ],
+          "explanation": "Mewtwo is een Pokémon van het type Psychic."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Mewtu?",
+          "options": [
+            "Drache",
+            "Kampf",
+            "Psycho",
+            "Normal"
+          ],
+          "explanation": "Mewtu ist ein Pokémon vom Typ Psycho."
+        }
+      }
+    },
+    {
+      "id": 30027,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Goupix ?",
+      "options": [
+        "Glace",
+        "Roche",
+        "Plante",
+        "Feu"
+      ],
+      "correct": 3,
+      "explanation": "Goupix est un Pokémon de type Feu.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Vulpix have?",
+          "options": [
+            "Ice",
+            "Rock",
+            "Grass",
+            "Fire"
+          ],
+          "explanation": "Vulpix is a Fire-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Vulpix?",
+          "options": [
+            "Ice",
+            "Rock",
+            "Grass",
+            "Fire"
+          ],
+          "explanation": "Vulpix is een Pokémon van het type Fire."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Vulpix?",
+          "options": [
+            "Eis",
+            "Gestein",
+            "Pflanze",
+            "Feuer"
+          ],
+          "explanation": "Vulpix ist ein Pokémon vom Typ Feuer."
+        }
+      }
+    },
+    {
+      "id": 30028,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Dratini ?",
+      "options": [
+        "Dragon",
+        "Eau",
+        "Feu",
+        "Électrik"
+      ],
+      "correct": 0,
+      "explanation": "Dratini est un Pokémon de type Dragon.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Dratini have?",
+          "options": [
+            "Dragon",
+            "Water",
+            "Fire",
+            "Electric"
+          ],
+          "explanation": "Dratini is a Dragon-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Dratini?",
+          "options": [
+            "Dragon",
+            "Water",
+            "Fire",
+            "Electric"
+          ],
+          "explanation": "Dratini is een Pokémon van het type Dragon."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Dratini?",
+          "options": [
+            "Drache",
+            "Wasser",
+            "Feuer",
+            "Elektro"
+          ],
+          "explanation": "Dratini ist ein Pokémon vom Typ Drache."
+        }
+      }
+    },
+    {
+      "id": 30029,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Tauros ?",
+      "options": [
+        "Combat",
+        "Normal",
+        "Psy",
+        "Dragon"
+      ],
+      "correct": 1,
+      "explanation": "Tauros est un Pokémon de type Normal.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Tauros have?",
+          "options": [
+            "Fighting",
+            "Normal",
+            "Psychic",
+            "Dragon"
+          ],
+          "explanation": "Tauros is a Normal-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Tauros?",
+          "options": [
+            "Fighting",
+            "Normal",
+            "Psychic",
+            "Dragon"
+          ],
+          "explanation": "Tauros is een Pokémon van het type Normal."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Tauros?",
+          "options": [
+            "Kampf",
+            "Normal",
+            "Psycho",
+            "Drache"
+          ],
+          "explanation": "Tauros ist ein Pokémon vom Typ Normal."
+        }
+      }
+    },
+    {
+      "id": 30030,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Métamorph ?",
+      "options": [
+        "Roche",
+        "Plante",
+        "Normal",
+        "Glace"
+      ],
+      "correct": 2,
+      "explanation": "Métamorph est un Pokémon de type Normal.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Ditto have?",
+          "options": [
+            "Rock",
+            "Grass",
+            "Normal",
+            "Ice"
+          ],
+          "explanation": "Ditto is a Normal-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Ditto?",
+          "options": [
+            "Rock",
+            "Grass",
+            "Normal",
+            "Ice"
+          ],
+          "explanation": "Ditto is een Pokémon van het type Normal."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Ditto?",
+          "options": [
+            "Gestein",
+            "Pflanze",
+            "Normal",
+            "Eis"
+          ],
+          "explanation": "Ditto ist ein Pokémon vom Typ Normal."
+        }
+      }
+    },
+    {
+      "id": 30031,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Évoli ?",
+      "options": [
+        "Eau",
+        "Feu",
+        "Électrik",
+        "Normal"
+      ],
+      "correct": 3,
+      "explanation": "Évoli est un Pokémon de type Normal.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Eevee have?",
+          "options": [
+            "Water",
+            "Fire",
+            "Electric",
+            "Normal"
+          ],
+          "explanation": "Eevee is a Normal-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Eevee?",
+          "options": [
+            "Water",
+            "Fire",
+            "Electric",
+            "Normal"
+          ],
+          "explanation": "Eevee is een Pokémon van het type Normal."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Evoli?",
+          "options": [
+            "Wasser",
+            "Feuer",
+            "Elektro",
+            "Normal"
+          ],
+          "explanation": "Evoli ist ein Pokémon vom Typ Normal."
+        }
+      }
+    },
+    {
+      "id": 30032,
+      "topic": "Types Pokémon",
+      "level": "Normal",
+      "Question": "De quel type unique est Voltorbe ?",
+      "options": [
+        "Électrik",
+        "Psy",
+        "Dragon",
+        "Combat"
+      ],
+      "correct": 0,
+      "explanation": "Voltorbe est un Pokémon de type Électrik.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which single type does Voltorb have?",
+          "options": [
+            "Electric",
+            "Psychic",
+            "Dragon",
+            "Fighting"
+          ],
+          "explanation": "Voltorb is a Electric-type Pokémon."
+        },
+        "nl": {
+          "Question": "Welk enkelvoudig type heeft Voltorb?",
+          "options": [
+            "Electric",
+            "Psychic",
+            "Dragon",
+            "Fighting"
+          ],
+          "explanation": "Voltorb is een Pokémon van het type Electric."
+        },
+        "de": {
+          "Question": "Welchen einzelnen Typ hat Voltobal?",
+          "options": [
+            "Elektro",
+            "Psycho",
+            "Drache",
+            "Kampf"
+          ],
+          "explanation": "Voltobal ist ein Pokémon vom Typ Elektro."
+        }
+      }
+    },
+    {
+      "id": 30033,
+      "topic": "Régions Pokémon",
+      "level": "Normal",
+      "Question": "Dans quelle région Pichu a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Hoenn",
+        "Sinnoh",
+        "Johto",
+        "Kanto"
+      ],
+      "correct": 2,
+      "explanation": "Pichu a été introduit avec la région de Johto.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Pichu first introduced?",
+          "options": [
+            "Hoenn",
+            "Sinnoh",
+            "Johto",
+            "Kanto"
+          ],
+          "explanation": "Pichu was introduced with the Johto region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Pichu voor het eerst geïntroduceerd?",
+          "options": [
+            "Hoenn",
+            "Sinnoh",
+            "Johto",
+            "Kanto"
+          ],
+          "explanation": "Pichu werd geïntroduceerd in de regio Johto."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Pichu erstmals eingeführt?",
+          "options": [
+            "Hoenn",
+            "Sinnoh",
+            "Johto",
+            "Kanto"
+          ],
+          "explanation": "Pichu wurde in der Region Johto eingeführt."
+        }
+      },
+      "region": "Johto"
+    },
+    {
+      "id": 30034,
+      "topic": "Régions Pokémon",
+      "level": "Normal",
+      "Question": "Dans quelle région Nostenfer a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Kalos",
+        "Johto",
+        "Sinnoh",
+        "Unys"
+      ],
+      "correct": 1,
+      "explanation": "Nostenfer a été introduit avec la région de Johto.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Crobat first introduced?",
+          "options": [
+            "Kalos",
+            "Johto",
+            "Sinnoh",
+            "Unys"
+          ],
+          "explanation": "Crobat was introduced with the Johto region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Crobat voor het eerst geïntroduceerd?",
+          "options": [
+            "Kalos",
+            "Johto",
+            "Sinnoh",
+            "Unys"
+          ],
+          "explanation": "Crobat werd geïntroduceerd in de regio Johto."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Iksbat erstmals eingeführt?",
+          "options": [
+            "Kalos",
+            "Johto",
+            "Sinnoh",
+            "Unys"
+          ],
+          "explanation": "Iksbat wurde in der Region Johto eingeführt."
+        }
+      },
+      "region": "Johto"
+    },
+    {
+      "id": 30035,
+      "topic": "Régions Pokémon",
+      "level": "Normal",
+      "Question": "Dans quelle région Mentali a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Johto",
+        "Kalos",
+        "Alola",
+        "Galar"
+      ],
+      "correct": 0,
+      "explanation": "Mentali a été introduit avec la région de Johto.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Espeon first introduced?",
+          "options": [
+            "Johto",
+            "Kalos",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Espeon was introduced with the Johto region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Espeon voor het eerst geïntroduceerd?",
+          "options": [
+            "Johto",
+            "Kalos",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Espeon werd geïntroduceerd in de regio Johto."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Psiana erstmals eingeführt?",
+          "options": [
+            "Johto",
+            "Kalos",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Psiana wurde in der Region Johto eingeführt."
+        }
+      },
+      "region": "Johto"
+    },
+    {
+      "id": 30036,
+      "topic": "Régions Pokémon",
+      "level": "Normal",
+      "Question": "Dans quelle région Noctali a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Galar",
+        "Paldea",
+        "Kanto",
+        "Johto"
+      ],
+      "correct": 3,
+      "explanation": "Noctali a été introduit avec la région de Johto.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Umbreon first introduced?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Johto"
+          ],
+          "explanation": "Umbreon was introduced with the Johto region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Umbreon voor het eerst geïntroduceerd?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Johto"
+          ],
+          "explanation": "Umbreon werd geïntroduceerd in de regio Johto."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Nachtara erstmals eingeführt?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Johto"
+          ],
+          "explanation": "Nachtara wurde in der Region Johto eingeführt."
+        }
+      },
+      "region": "Johto"
+    },
+    {
+      "id": 30037,
+      "topic": "Régions Pokémon",
+      "level": "Normal",
+      "Question": "Dans quelle région Jirachi a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Johto",
+        "Sinnoh",
+        "Hoenn",
+        "Kanto"
+      ],
+      "correct": 2,
+      "explanation": "Jirachi a été introduit avec la région de Hoenn.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Jirachi first introduced?",
+          "options": [
+            "Johto",
+            "Sinnoh",
+            "Hoenn",
+            "Kanto"
+          ],
+          "explanation": "Jirachi was introduced with the Hoenn region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Jirachi voor het eerst geïntroduceerd?",
+          "options": [
+            "Johto",
+            "Sinnoh",
+            "Hoenn",
+            "Kanto"
+          ],
+          "explanation": "Jirachi werd geïntroduceerd in de regio Hoenn."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Jirachi erstmals eingeführt?",
+          "options": [
+            "Johto",
+            "Sinnoh",
+            "Hoenn",
+            "Kanto"
+          ],
+          "explanation": "Jirachi wurde in der Region Hoenn eingeführt."
+        }
+      },
+      "region": "Hoenn"
+    },
+    {
+      "id": 30038,
+      "topic": "Régions Pokémon",
+      "level": "Normal",
+      "Question": "Dans quelle région Lucario a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Kalos",
+        "Sinnoh",
+        "Hoenn",
+        "Unys"
+      ],
+      "correct": 1,
+      "explanation": "Lucario a été introduit avec la région de Sinnoh.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Lucario first introduced?",
+          "options": [
+            "Kalos",
+            "Sinnoh",
+            "Hoenn",
+            "Unys"
+          ],
+          "explanation": "Lucario was introduced with the Sinnoh region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Lucario voor het eerst geïntroduceerd?",
+          "options": [
+            "Kalos",
+            "Sinnoh",
+            "Hoenn",
+            "Unys"
+          ],
+          "explanation": "Lucario werd geïntroduceerd in de regio Sinnoh."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Lucario erstmals eingeführt?",
+          "options": [
+            "Kalos",
+            "Sinnoh",
+            "Hoenn",
+            "Unys"
+          ],
+          "explanation": "Lucario wurde in der Region Sinnoh eingeführt."
+        }
+      },
+      "region": "Sinnoh"
+    },
+    {
+      "id": 30039,
+      "topic": "Régions Pokémon",
+      "level": "Normal",
+      "Question": "Dans quelle région Tiplouf a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Sinnoh",
+        "Kalos",
+        "Alola",
+        "Galar"
+      ],
+      "correct": 0,
+      "explanation": "Tiplouf a été introduit avec la région de Sinnoh.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Piplup first introduced?",
+          "options": [
+            "Sinnoh",
+            "Kalos",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Piplup was introduced with the Sinnoh region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Piplup voor het eerst geïntroduceerd?",
+          "options": [
+            "Sinnoh",
+            "Kalos",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Piplup werd geïntroduceerd in de regio Sinnoh."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Plinfa erstmals eingeführt?",
+          "options": [
+            "Sinnoh",
+            "Kalos",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Plinfa wurde in der Region Sinnoh eingeführt."
+        }
+      },
+      "region": "Sinnoh"
+    },
+    {
+      "id": 30040,
+      "topic": "Régions Pokémon",
+      "level": "Normal",
+      "Question": "Dans quelle région Tortipouss a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Galar",
+        "Paldea",
+        "Kanto",
+        "Sinnoh"
+      ],
+      "correct": 3,
+      "explanation": "Tortipouss a été introduit avec la région de Sinnoh.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Turtwig first introduced?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Sinnoh"
+          ],
+          "explanation": "Turtwig was introduced with the Sinnoh region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Turtwig voor het eerst geïntroduceerd?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Sinnoh"
+          ],
+          "explanation": "Turtwig werd geïntroduceerd in de regio Sinnoh."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Chelast erstmals eingeführt?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Sinnoh"
+          ],
+          "explanation": "Chelast wurde in der Region Sinnoh eingeführt."
+        }
+      },
+      "region": "Sinnoh"
+    },
+    {
+      "id": 30041,
+      "topic": "Régions Pokémon",
+      "level": "Difficile",
+      "Question": "Dans quelle région Victini a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Johto",
+        "Hoenn",
+        "Unys",
+        "Kanto"
+      ],
+      "correct": 2,
+      "explanation": "Victini a été introduit avec la région de Unys.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Victini first introduced?",
+          "options": [
+            "Johto",
+            "Hoenn",
+            "Unys",
+            "Kanto"
+          ],
+          "explanation": "Victini was introduced with the Unys region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Victini voor het eerst geïntroduceerd?",
+          "options": [
+            "Johto",
+            "Hoenn",
+            "Unys",
+            "Kanto"
+          ],
+          "explanation": "Victini werd geïntroduceerd in de regio Unys."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Victini erstmals eingeführt?",
+          "options": [
+            "Johto",
+            "Hoenn",
+            "Unys",
+            "Kanto"
+          ],
+          "explanation": "Victini wurde in der Region Unys eingeführt."
+        }
+      },
+      "region": "Unys"
+    },
+    {
+      "id": 30042,
+      "topic": "Régions Pokémon",
+      "level": "Difficile",
+      "Question": "Dans quelle région Zorua a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Kalos",
+        "Unys",
+        "Hoenn",
+        "Sinnoh"
+      ],
+      "correct": 1,
+      "explanation": "Zorua a été introduit avec la région de Unys.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Zorua first introduced?",
+          "options": [
+            "Kalos",
+            "Unys",
+            "Hoenn",
+            "Sinnoh"
+          ],
+          "explanation": "Zorua was introduced with the Unys region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Zorua voor het eerst geïntroduceerd?",
+          "options": [
+            "Kalos",
+            "Unys",
+            "Hoenn",
+            "Sinnoh"
+          ],
+          "explanation": "Zorua werd geïntroduceerd in de regio Unys."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Zorua erstmals eingeführt?",
+          "options": [
+            "Kalos",
+            "Unys",
+            "Hoenn",
+            "Sinnoh"
+          ],
+          "explanation": "Zorua wurde in der Region Unys eingeführt."
+        }
+      },
+      "region": "Unys"
+    },
+    {
+      "id": 30043,
+      "topic": "Régions Pokémon",
+      "level": "Difficile",
+      "Question": "Dans quelle région Amphinobi a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Kalos",
+        "Unys",
+        "Alola",
+        "Galar"
+      ],
+      "correct": 0,
+      "explanation": "Amphinobi a été introduit avec la région de Kalos.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Greninja first introduced?",
+          "options": [
+            "Kalos",
+            "Unys",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Greninja was introduced with the Kalos region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Greninja voor het eerst geïntroduceerd?",
+          "options": [
+            "Kalos",
+            "Unys",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Greninja werd geïntroduceerd in de regio Kalos."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Quajutsu erstmals eingeführt?",
+          "options": [
+            "Kalos",
+            "Unys",
+            "Alola",
+            "Galar"
+          ],
+          "explanation": "Quajutsu wurde in der Region Kalos eingeführt."
+        }
+      },
+      "region": "Kalos"
+    },
+    {
+      "id": 30044,
+      "topic": "Régions Pokémon",
+      "level": "Difficile",
+      "Question": "Dans quelle région Nymphali a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Galar",
+        "Paldea",
+        "Kanto",
+        "Kalos"
+      ],
+      "correct": 3,
+      "explanation": "Nymphali a été introduit avec la région de Kalos.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Sylveon first introduced?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Kalos"
+          ],
+          "explanation": "Sylveon was introduced with the Kalos region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Sylveon voor het eerst geïntroduceerd?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Kalos"
+          ],
+          "explanation": "Sylveon werd geïntroduceerd in de regio Kalos."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Feelinara erstmals eingeführt?",
+          "options": [
+            "Galar",
+            "Paldea",
+            "Kanto",
+            "Kalos"
+          ],
+          "explanation": "Feelinara wurde in der Region Kalos eingeführt."
+        }
+      },
+      "region": "Kalos"
+    },
+    {
+      "id": 30045,
+      "topic": "Régions Pokémon",
+      "level": "Difficile",
+      "Question": "Dans quelle région Mimiqui a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Johto",
+        "Hoenn",
+        "Alola",
+        "Kanto"
+      ],
+      "correct": 2,
+      "explanation": "Mimiqui a été introduit avec la région de Alola.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Mimikyu first introduced?",
+          "options": [
+            "Johto",
+            "Hoenn",
+            "Alola",
+            "Kanto"
+          ],
+          "explanation": "Mimikyu was introduced with the Alola region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Mimikyu voor het eerst geïntroduceerd?",
+          "options": [
+            "Johto",
+            "Hoenn",
+            "Alola",
+            "Kanto"
+          ],
+          "explanation": "Mimikyu werd geïntroduceerd in de regio Alola."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Mimigma erstmals eingeführt?",
+          "options": [
+            "Johto",
+            "Hoenn",
+            "Alola",
+            "Kanto"
+          ],
+          "explanation": "Mimigma wurde in der Region Alola eingeführt."
+        }
+      },
+      "region": "Alola"
+    },
+    {
+      "id": 30046,
+      "topic": "Régions Pokémon",
+      "level": "Difficile",
+      "Question": "Dans quelle région Brindibou a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Unys",
+        "Alola",
+        "Hoenn",
+        "Sinnoh"
+      ],
+      "correct": 1,
+      "explanation": "Brindibou a été introduit avec la région de Alola.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Rowlet first introduced?",
+          "options": [
+            "Unys",
+            "Alola",
+            "Hoenn",
+            "Sinnoh"
+          ],
+          "explanation": "Rowlet was introduced with the Alola region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Rowlet voor het eerst geïntroduceerd?",
+          "options": [
+            "Unys",
+            "Alola",
+            "Hoenn",
+            "Sinnoh"
+          ],
+          "explanation": "Rowlet werd geïntroduceerd in de regio Alola."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Bauz erstmals eingeführt?",
+          "options": [
+            "Unys",
+            "Alola",
+            "Hoenn",
+            "Sinnoh"
+          ],
+          "explanation": "Bauz wurde in der Region Alola eingeführt."
+        }
+      },
+      "region": "Alola"
+    },
+    {
+      "id": 30047,
+      "topic": "Régions Pokémon",
+      "level": "Difficile",
+      "Question": "Dans quelle région Moumouton a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Galar",
+        "Unys",
+        "Kalos",
+        "Alola"
+      ],
+      "correct": 0,
+      "explanation": "Moumouton a été introduit avec la région de Galar.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Wooloo first introduced?",
+          "options": [
+            "Galar",
+            "Unys",
+            "Kalos",
+            "Alola"
+          ],
+          "explanation": "Wooloo was introduced with the Galar region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Wooloo voor het eerst geïntroduceerd?",
+          "options": [
+            "Galar",
+            "Unys",
+            "Kalos",
+            "Alola"
+          ],
+          "explanation": "Wooloo werd geïntroduceerd in de regio Galar."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Wolly erstmals eingeführt?",
+          "options": [
+            "Galar",
+            "Unys",
+            "Kalos",
+            "Alola"
+          ],
+          "explanation": "Wolly wurde in der Region Galar eingeführt."
+        }
+      },
+      "region": "Galar"
+    },
+    {
+      "id": 30048,
+      "topic": "Régions Pokémon",
+      "level": "Difficile",
+      "Question": "Dans quelle région Poussacha a-t-il été introduit pour la première fois ?",
+      "options": [
+        "Alola",
+        "Galar",
+        "Kanto",
+        "Paldea"
+      ],
+      "correct": 3,
+      "explanation": "Poussacha a été introduit avec la région de Paldea.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In which region was Sprigatito first introduced?",
+          "options": [
+            "Alola",
+            "Galar",
+            "Kanto",
+            "Paldea"
+          ],
+          "explanation": "Sprigatito was introduced with the Paldea region."
+        },
+        "nl": {
+          "Question": "In welke regio werd Sprigatito voor het eerst geïntroduceerd?",
+          "options": [
+            "Alola",
+            "Galar",
+            "Kanto",
+            "Paldea"
+          ],
+          "explanation": "Sprigatito werd geïntroduceerd in de regio Paldea."
+        },
+        "de": {
+          "Question": "In welcher Region wurde Felori erstmals eingeführt?",
+          "options": [
+            "Alola",
+            "Galar",
+            "Kanto",
+            "Paldea"
+          ],
+          "explanation": "Felori wurde in der Region Paldea eingeführt."
+        }
+      },
+      "region": "Paldea"
+    },
+    {
+      "id": 30049,
+      "topic": "Objets et évolutions",
+      "level": "Normal",
+      "Question": "Quelle pierre permet de faire évoluer Goupix en Feunard ?",
+      "options": [
+        "Pierre Feu",
+        "Pierre Eau",
+        "Pierre Foudre",
+        "Pierre Lune"
+      ],
+      "correct": 0,
+      "explanation": "La Pierre Feu permet de faire évoluer Goupix en Feunard.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Vulpix into Ninetales?",
+          "options": [
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone",
+            "Moon Stone"
+          ],
+          "explanation": "A Fire Stone can evolve Vulpix into Ninetales."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Vulpix in Ninetales?",
+          "options": [
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone",
+            "Moon Stone"
+          ],
+          "explanation": "Met een Fire Stone kan Vulpix evolueren in Ninetales."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Vulpix zu Vulnona?",
+          "options": [
+            "Feuerstein",
+            "Wasserstein",
+            "Donnerstein",
+            "Mondstein"
+          ],
+          "explanation": "Mit einem Feuerstein entwickelt sich Vulpix zu Vulnona."
+        }
+      }
+    },
+    {
+      "id": 30050,
+      "topic": "Objets et évolutions",
+      "level": "Normal",
+      "Question": "Quelle pierre permet de faire évoluer Caninos en Arcanin ?",
+      "options": [
+        "Pierre Lune",
+        "Pierre Feu",
+        "Pierre Eau",
+        "Pierre Foudre"
+      ],
+      "correct": 1,
+      "explanation": "La Pierre Feu permet de faire évoluer Caninos en Arcanin.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Growlithe into Arcanine?",
+          "options": [
+            "Moon Stone",
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone"
+          ],
+          "explanation": "A Fire Stone can evolve Growlithe into Arcanine."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Growlithe in Arcanine?",
+          "options": [
+            "Moon Stone",
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone"
+          ],
+          "explanation": "Met een Fire Stone kan Growlithe evolueren in Arcanine."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Fukano zu Arkani?",
+          "options": [
+            "Mondstein",
+            "Feuerstein",
+            "Wasserstein",
+            "Donnerstein"
+          ],
+          "explanation": "Mit einem Feuerstein entwickelt sich Fukano zu Arkani."
+        }
+      }
+    },
+    {
+      "id": 30051,
+      "topic": "Objets et évolutions",
+      "level": "Normal",
+      "Question": "Quelle pierre permet de faire évoluer Pikachu en Raichu ?",
+      "options": [
+        "Pierre Eau",
+        "Pierre Lune",
+        "Pierre Foudre",
+        "Pierre Feu"
+      ],
+      "correct": 2,
+      "explanation": "La Pierre Foudre permet de faire évoluer Pikachu en Raichu.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Pikachu into Raichu?",
+          "options": [
+            "Water Stone",
+            "Moon Stone",
+            "Thunder Stone",
+            "Fire Stone"
+          ],
+          "explanation": "A Thunder Stone can evolve Pikachu into Raichu."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Pikachu in Raichu?",
+          "options": [
+            "Water Stone",
+            "Moon Stone",
+            "Thunder Stone",
+            "Fire Stone"
+          ],
+          "explanation": "Met een Thunder Stone kan Pikachu evolueren in Raichu."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Pikachu zu Raichu?",
+          "options": [
+            "Wasserstein",
+            "Mondstein",
+            "Donnerstein",
+            "Feuerstein"
+          ],
+          "explanation": "Mit einem Donnerstein entwickelt sich Pikachu zu Raichu."
+        }
+      }
+    },
+    {
+      "id": 30052,
+      "topic": "Objets et évolutions",
+      "level": "Normal",
+      "Question": "Quelle pierre permet de faire évoluer Évoli en Aquali ?",
+      "options": [
+        "Pierre Feu",
+        "Pierre Foudre",
+        "Pierre Lune",
+        "Pierre Eau"
+      ],
+      "correct": 3,
+      "explanation": "La Pierre Eau permet de faire évoluer Évoli en Aquali.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Eevee into Vaporeon?",
+          "options": [
+            "Fire Stone",
+            "Thunder Stone",
+            "Moon Stone",
+            "Water Stone"
+          ],
+          "explanation": "A Water Stone can evolve Eevee into Vaporeon."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Eevee in Vaporeon?",
+          "options": [
+            "Fire Stone",
+            "Thunder Stone",
+            "Moon Stone",
+            "Water Stone"
+          ],
+          "explanation": "Met een Water Stone kan Eevee evolueren in Vaporeon."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Evoli zu Aquana?",
+          "options": [
+            "Feuerstein",
+            "Donnerstein",
+            "Mondstein",
+            "Wasserstein"
+          ],
+          "explanation": "Mit einem Wasserstein entwickelt sich Evoli zu Aquana."
+        }
+      }
+    },
+    {
+      "id": 30053,
+      "topic": "Objets et évolutions",
+      "level": "Normal",
+      "Question": "Quelle pierre permet de faire évoluer Évoli en Voltali ?",
+      "options": [
+        "Pierre Foudre",
+        "Pierre Feu",
+        "Pierre Eau",
+        "Pierre Lune"
+      ],
+      "correct": 0,
+      "explanation": "La Pierre Foudre permet de faire évoluer Évoli en Voltali.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Eevee into Jolteon?",
+          "options": [
+            "Thunder Stone",
+            "Fire Stone",
+            "Water Stone",
+            "Moon Stone"
+          ],
+          "explanation": "A Thunder Stone can evolve Eevee into Jolteon."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Eevee in Jolteon?",
+          "options": [
+            "Thunder Stone",
+            "Fire Stone",
+            "Water Stone",
+            "Moon Stone"
+          ],
+          "explanation": "Met een Thunder Stone kan Eevee evolueren in Jolteon."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Evoli zu Blitza?",
+          "options": [
+            "Donnerstein",
+            "Feuerstein",
+            "Wasserstein",
+            "Mondstein"
+          ],
+          "explanation": "Mit einem Donnerstein entwickelt sich Evoli zu Blitza."
+        }
+      }
+    },
+    {
+      "id": 30054,
+      "topic": "Objets et évolutions",
+      "level": "Normal",
+      "Question": "Quelle pierre permet de faire évoluer Évoli en Pyroli ?",
+      "options": [
+        "Pierre Lune",
+        "Pierre Feu",
+        "Pierre Eau",
+        "Pierre Foudre"
+      ],
+      "correct": 1,
+      "explanation": "La Pierre Feu permet de faire évoluer Évoli en Pyroli.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Eevee into Flareon?",
+          "options": [
+            "Moon Stone",
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone"
+          ],
+          "explanation": "A Fire Stone can evolve Eevee into Flareon."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Eevee in Flareon?",
+          "options": [
+            "Moon Stone",
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone"
+          ],
+          "explanation": "Met een Fire Stone kan Eevee evolueren in Flareon."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Evoli zu Flamara?",
+          "options": [
+            "Mondstein",
+            "Feuerstein",
+            "Wasserstein",
+            "Donnerstein"
+          ],
+          "explanation": "Mit einem Feuerstein entwickelt sich Evoli zu Flamara."
+        }
+      }
+    },
+    {
+      "id": 30055,
+      "topic": "Objets et évolutions",
+      "level": "Difficile",
+      "Question": "Quelle pierre permet de faire évoluer Stari en Staross ?",
+      "options": [
+        "Pierre Foudre",
+        "Pierre Lune",
+        "Pierre Eau",
+        "Pierre Feu"
+      ],
+      "correct": 2,
+      "explanation": "La Pierre Eau permet de faire évoluer Stari en Staross.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Staryu into Starmie?",
+          "options": [
+            "Thunder Stone",
+            "Moon Stone",
+            "Water Stone",
+            "Fire Stone"
+          ],
+          "explanation": "A Water Stone can evolve Staryu into Starmie."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Staryu in Starmie?",
+          "options": [
+            "Thunder Stone",
+            "Moon Stone",
+            "Water Stone",
+            "Fire Stone"
+          ],
+          "explanation": "Met een Water Stone kan Staryu evolueren in Starmie."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Sterndu zu Starmie?",
+          "options": [
+            "Donnerstein",
+            "Mondstein",
+            "Wasserstein",
+            "Feuerstein"
+          ],
+          "explanation": "Mit einem Wasserstein entwickelt sich Sterndu zu Starmie."
+        }
+      }
+    },
+    {
+      "id": 30056,
+      "topic": "Objets et évolutions",
+      "level": "Difficile",
+      "Question": "Quelle pierre permet de faire évoluer Kokiyas en Crustabri ?",
+      "options": [
+        "Pierre Feu",
+        "Pierre Foudre",
+        "Pierre Lune",
+        "Pierre Eau"
+      ],
+      "correct": 3,
+      "explanation": "La Pierre Eau permet de faire évoluer Kokiyas en Crustabri.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Shellder into Cloyster?",
+          "options": [
+            "Fire Stone",
+            "Thunder Stone",
+            "Moon Stone",
+            "Water Stone"
+          ],
+          "explanation": "A Water Stone can evolve Shellder into Cloyster."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Shellder in Cloyster?",
+          "options": [
+            "Fire Stone",
+            "Thunder Stone",
+            "Moon Stone",
+            "Water Stone"
+          ],
+          "explanation": "Met een Water Stone kan Shellder evolueren in Cloyster."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Muschas zu Austos?",
+          "options": [
+            "Feuerstein",
+            "Donnerstein",
+            "Mondstein",
+            "Wasserstein"
+          ],
+          "explanation": "Mit einem Wasserstein entwickelt sich Muschas zu Austos."
+        }
+      }
+    },
+    {
+      "id": 30057,
+      "topic": "Objets et évolutions",
+      "level": "Difficile",
+      "Question": "Quelle pierre permet de faire évoluer Mélofée en Mélodelfe ?",
+      "options": [
+        "Pierre Lune",
+        "Pierre Feu",
+        "Pierre Eau",
+        "Pierre Foudre"
+      ],
+      "correct": 0,
+      "explanation": "La Pierre Lune permet de faire évoluer Mélofée en Mélodelfe.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Clefairy into Clefable?",
+          "options": [
+            "Moon Stone",
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone"
+          ],
+          "explanation": "A Moon Stone can evolve Clefairy into Clefable."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Clefairy in Clefable?",
+          "options": [
+            "Moon Stone",
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone"
+          ],
+          "explanation": "Met een Moon Stone kan Clefairy evolueren in Clefable."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Piepi zu Pixi?",
+          "options": [
+            "Mondstein",
+            "Feuerstein",
+            "Wasserstein",
+            "Donnerstein"
+          ],
+          "explanation": "Mit einem Mondstein entwickelt sich Piepi zu Pixi."
+        }
+      }
+    },
+    {
+      "id": 30058,
+      "topic": "Objets et évolutions",
+      "level": "Difficile",
+      "Question": "Quelle pierre permet de faire évoluer Rondoudou en Grodoudou ?",
+      "options": [
+        "Pierre Foudre",
+        "Pierre Lune",
+        "Pierre Feu",
+        "Pierre Eau"
+      ],
+      "correct": 1,
+      "explanation": "La Pierre Lune permet de faire évoluer Rondoudou en Grodoudou.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Jigglypuff into Wigglytuff?",
+          "options": [
+            "Thunder Stone",
+            "Moon Stone",
+            "Fire Stone",
+            "Water Stone"
+          ],
+          "explanation": "A Moon Stone can evolve Jigglypuff into Wigglytuff."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Jigglypuff in Wigglytuff?",
+          "options": [
+            "Thunder Stone",
+            "Moon Stone",
+            "Fire Stone",
+            "Water Stone"
+          ],
+          "explanation": "Met een Moon Stone kan Jigglypuff evolueren in Wigglytuff."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Pummeluff zu Knuddeluff?",
+          "options": [
+            "Donnerstein",
+            "Mondstein",
+            "Feuerstein",
+            "Wasserstein"
+          ],
+          "explanation": "Mit einem Mondstein entwickelt sich Pummeluff zu Knuddeluff."
+        }
+      }
+    },
+    {
+      "id": 30059,
+      "topic": "Objets et évolutions",
+      "level": "Difficile",
+      "Question": "Quelle pierre permet de faire évoluer Ortide en Rafflesia ?",
+      "options": [
+        "Pierre Eau",
+        "Pierre Foudre",
+        "Pierre Plante",
+        "Pierre Feu"
+      ],
+      "correct": 2,
+      "explanation": "La Pierre Plante permet de faire évoluer Ortide en Rafflesia.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Gloom into Vileplume?",
+          "options": [
+            "Water Stone",
+            "Thunder Stone",
+            "Leaf Stone",
+            "Fire Stone"
+          ],
+          "explanation": "A Leaf Stone can evolve Gloom into Vileplume."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Gloom in Vileplume?",
+          "options": [
+            "Water Stone",
+            "Thunder Stone",
+            "Leaf Stone",
+            "Fire Stone"
+          ],
+          "explanation": "Met een Leaf Stone kan Gloom evolueren in Vileplume."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Duflor zu Giflor?",
+          "options": [
+            "Wasserstein",
+            "Donnerstein",
+            "Blattstein",
+            "Feuerstein"
+          ],
+          "explanation": "Mit einem Blattstein entwickelt sich Duflor zu Giflor."
+        }
+      }
+    },
+    {
+      "id": 30060,
+      "topic": "Objets et évolutions",
+      "level": "Difficile",
+      "Question": "Quelle pierre permet de faire évoluer Boustiflor en Empiflor ?",
+      "options": [
+        "Pierre Feu",
+        "Pierre Eau",
+        "Pierre Foudre",
+        "Pierre Plante"
+      ],
+      "correct": 3,
+      "explanation": "La Pierre Plante permet de faire évoluer Boustiflor en Empiflor.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which stone evolves Weepinbell into Victreebel?",
+          "options": [
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone",
+            "Leaf Stone"
+          ],
+          "explanation": "A Leaf Stone can evolve Weepinbell into Victreebel."
+        },
+        "nl": {
+          "Question": "Met welke steen evolueert Weepinbell in Victreebel?",
+          "options": [
+            "Fire Stone",
+            "Water Stone",
+            "Thunder Stone",
+            "Leaf Stone"
+          ],
+          "explanation": "Met een Leaf Stone kan Weepinbell evolueren in Victreebel."
+        },
+        "de": {
+          "Question": "Mit welchem Stein entwickelt sich Ultrigaria zu Sarzenia?",
+          "options": [
+            "Feuerstein",
+            "Wasserstein",
+            "Donnerstein",
+            "Blattstein"
+          ],
+          "explanation": "Mit einem Blattstein entwickelt sich Ultrigaria zu Sarzenia."
+        }
+      }
+    },
+    {
+      "id": 30061,
+      "topic": "Pokédex",
+      "level": "Normal",
+      "Question": "Quel Pokémon porte le numéro 4 du Pokédex national ?",
+      "options": [
+        "Pikachu",
+        "Mew",
+        "Évoli",
+        "Salamèche"
+      ],
+      "correct": 3,
+      "explanation": "Salamèche porte le numéro 4 du Pokédex national.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon is number 4 in the National Pokédex?",
+          "options": [
+            "Pikachu",
+            "Mew",
+            "Eevee",
+            "Charmander"
+          ],
+          "explanation": "Charmander is number 4 in the National Pokédex."
+        },
+        "nl": {
+          "Question": "Welke Pokémon heeft nummer 4 in de Nationale Pokédex?",
+          "options": [
+            "Pikachu",
+            "Mew",
+            "Eevee",
+            "Charmander"
+          ],
+          "explanation": "Charmander is nummer 4 in de Nationale Pokédex."
+        },
+        "de": {
+          "Question": "Welches Pokémon trägt die Nummer 4 im Nationalen Pokédex?",
+          "options": [
+            "Pikachu",
+            "Mew",
+            "Evoli",
+            "Glumanda"
+          ],
+          "explanation": "Glumanda trägt die Nummer 4 im Nationalen Pokédex."
+        }
+      }
+    },
+    {
+      "id": 30062,
+      "topic": "Pokédex",
+      "level": "Normal",
+      "Question": "Quel Pokémon porte le numéro 7 du Pokédex national ?",
+      "options": [
+        "Évoli",
+        "Ronflex",
+        "Carapuce",
+        "Mew"
+      ],
+      "correct": 2,
+      "explanation": "Carapuce porte le numéro 7 du Pokédex national.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon is number 7 in the National Pokédex?",
+          "options": [
+            "Eevee",
+            "Snorlax",
+            "Squirtle",
+            "Mew"
+          ],
+          "explanation": "Squirtle is number 7 in the National Pokédex."
+        },
+        "nl": {
+          "Question": "Welke Pokémon heeft nummer 7 in de Nationale Pokédex?",
+          "options": [
+            "Eevee",
+            "Snorlax",
+            "Squirtle",
+            "Mew"
+          ],
+          "explanation": "Squirtle is nummer 7 in de Nationale Pokédex."
+        },
+        "de": {
+          "Question": "Welches Pokémon trägt die Nummer 7 im Nationalen Pokédex?",
+          "options": [
+            "Evoli",
+            "Relaxo",
+            "Schiggy",
+            "Mew"
+          ],
+          "explanation": "Schiggy trägt die Nummer 7 im Nationalen Pokédex."
+        }
+      }
+    },
+    {
+      "id": 30063,
+      "topic": "Pokédex",
+      "level": "Normal",
+      "Question": "Quel Pokémon porte le numéro 39 du Pokédex national ?",
+      "options": [
+        "Carapuce",
+        "Rondoudou",
+        "Évoli",
+        "Ronflex"
+      ],
+      "correct": 1,
+      "explanation": "Rondoudou porte le numéro 39 du Pokédex national.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon is number 39 in the National Pokédex?",
+          "options": [
+            "Squirtle",
+            "Jigglypuff",
+            "Eevee",
+            "Snorlax"
+          ],
+          "explanation": "Jigglypuff is number 39 in the National Pokédex."
+        },
+        "nl": {
+          "Question": "Welke Pokémon heeft nummer 39 in de Nationale Pokédex?",
+          "options": [
+            "Squirtle",
+            "Jigglypuff",
+            "Eevee",
+            "Snorlax"
+          ],
+          "explanation": "Jigglypuff is nummer 39 in de Nationale Pokédex."
+        },
+        "de": {
+          "Question": "Welches Pokémon trägt die Nummer 39 im Nationalen Pokédex?",
+          "options": [
+            "Schiggy",
+            "Pummeluff",
+            "Evoli",
+            "Relaxo"
+          ],
+          "explanation": "Pummeluff trägt die Nummer 39 im Nationalen Pokédex."
+        }
+      }
+    },
+    {
+      "id": 30064,
+      "topic": "Pokédex",
+      "level": "Normal",
+      "Question": "Quel Pokémon porte le numéro 52 du Pokédex national ?",
+      "options": [
+        "Miaouss",
+        "Ronflex",
+        "Carapuce",
+        "Magicarpe"
+      ],
+      "correct": 0,
+      "explanation": "Miaouss porte le numéro 52 du Pokédex national.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon is number 52 in the National Pokédex?",
+          "options": [
+            "Meowth",
+            "Snorlax",
+            "Squirtle",
+            "Magikarp"
+          ],
+          "explanation": "Meowth is number 52 in the National Pokédex."
+        },
+        "nl": {
+          "Question": "Welke Pokémon heeft nummer 52 in de Nationale Pokédex?",
+          "options": [
+            "Meowth",
+            "Snorlax",
+            "Squirtle",
+            "Magikarp"
+          ],
+          "explanation": "Meowth is nummer 52 in de Nationale Pokédex."
+        },
+        "de": {
+          "Question": "Welches Pokémon trägt die Nummer 52 im Nationalen Pokédex?",
+          "options": [
+            "Mauzi",
+            "Relaxo",
+            "Schiggy",
+            "Karpador"
+          ],
+          "explanation": "Mauzi trägt die Nummer 52 im Nationalen Pokédex."
+        }
+      }
+    },
+    {
+      "id": 30065,
+      "topic": "Pokédex",
+      "level": "Difficile",
+      "Question": "Quel Pokémon porte le numéro 54 du Pokédex national ?",
+      "options": [
+        "Pikachu",
+        "Mew",
+        "Évoli",
+        "Psykokwak"
+      ],
+      "correct": 3,
+      "explanation": "Psykokwak porte le numéro 54 du Pokédex national.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon is number 54 in the National Pokédex?",
+          "options": [
+            "Pikachu",
+            "Mew",
+            "Eevee",
+            "Psyduck"
+          ],
+          "explanation": "Psyduck is number 54 in the National Pokédex."
+        },
+        "nl": {
+          "Question": "Welke Pokémon heeft nummer 54 in de Nationale Pokédex?",
+          "options": [
+            "Pikachu",
+            "Mew",
+            "Eevee",
+            "Psyduck"
+          ],
+          "explanation": "Psyduck is nummer 54 in de Nationale Pokédex."
+        },
+        "de": {
+          "Question": "Welches Pokémon trägt die Nummer 54 im Nationalen Pokédex?",
+          "options": [
+            "Pikachu",
+            "Mew",
+            "Evoli",
+            "Enton"
+          ],
+          "explanation": "Enton trägt die Nummer 54 im Nationalen Pokédex."
+        }
+      }
+    },
+    {
+      "id": 30066,
+      "topic": "Pokédex",
+      "level": "Difficile",
+      "Question": "Quel Pokémon porte le numéro 133 du Pokédex national ?",
+      "options": [
+        "Ronflex",
+        "Carapuce",
+        "Évoli",
+        "Mew"
+      ],
+      "correct": 2,
+      "explanation": "Évoli porte le numéro 133 du Pokédex national.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon is number 133 in the National Pokédex?",
+          "options": [
+            "Snorlax",
+            "Squirtle",
+            "Eevee",
+            "Mew"
+          ],
+          "explanation": "Eevee is number 133 in the National Pokédex."
+        },
+        "nl": {
+          "Question": "Welke Pokémon heeft nummer 133 in de Nationale Pokédex?",
+          "options": [
+            "Snorlax",
+            "Squirtle",
+            "Eevee",
+            "Mew"
+          ],
+          "explanation": "Eevee is nummer 133 in de Nationale Pokédex."
+        },
+        "de": {
+          "Question": "Welches Pokémon trägt die Nummer 133 im Nationalen Pokédex?",
+          "options": [
+            "Relaxo",
+            "Schiggy",
+            "Evoli",
+            "Mew"
+          ],
+          "explanation": "Evoli trägt die Nummer 133 im Nationalen Pokédex."
+        }
+      }
+    },
+    {
+      "id": 30067,
+      "topic": "Pokédex",
+      "level": "Difficile",
+      "Question": "Quel Pokémon porte le numéro 143 du Pokédex national ?",
+      "options": [
+        "Magicarpe",
+        "Ronflex",
+        "Évoli",
+        "Carapuce"
+      ],
+      "correct": 1,
+      "explanation": "Ronflex porte le numéro 143 du Pokédex national.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon is number 143 in the National Pokédex?",
+          "options": [
+            "Magikarp",
+            "Snorlax",
+            "Eevee",
+            "Squirtle"
+          ],
+          "explanation": "Snorlax is number 143 in the National Pokédex."
+        },
+        "nl": {
+          "Question": "Welke Pokémon heeft nummer 143 in de Nationale Pokédex?",
+          "options": [
+            "Magikarp",
+            "Snorlax",
+            "Eevee",
+            "Squirtle"
+          ],
+          "explanation": "Snorlax is nummer 143 in de Nationale Pokédex."
+        },
+        "de": {
+          "Question": "Welches Pokémon trägt die Nummer 143 im Nationalen Pokédex?",
+          "options": [
+            "Karpador",
+            "Relaxo",
+            "Evoli",
+            "Schiggy"
+          ],
+          "explanation": "Relaxo trägt die Nummer 143 im Nationalen Pokédex."
+        }
+      }
+    },
+    {
+      "id": 30068,
+      "topic": "Pokédex",
+      "level": "Difficile",
+      "Question": "Quel Pokémon porte le numéro 150 du Pokédex national ?",
+      "options": [
+        "Mewtwo",
+        "Ronflex",
+        "Carapuce",
+        "Magicarpe"
+      ],
+      "correct": 0,
+      "explanation": "Mewtwo porte le numéro 150 du Pokédex national.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon is number 150 in the National Pokédex?",
+          "options": [
+            "Mewtwo",
+            "Snorlax",
+            "Squirtle",
+            "Magikarp"
+          ],
+          "explanation": "Mewtwo is number 150 in the National Pokédex."
+        },
+        "nl": {
+          "Question": "Welke Pokémon heeft nummer 150 in de Nationale Pokédex?",
+          "options": [
+            "Mewtwo",
+            "Snorlax",
+            "Squirtle",
+            "Magikarp"
+          ],
+          "explanation": "Mewtwo is nummer 150 in de Nationale Pokédex."
+        },
+        "de": {
+          "Question": "Welches Pokémon trägt die Nummer 150 im Nationalen Pokédex?",
+          "options": [
+            "Mewtu",
+            "Relaxo",
+            "Schiggy",
+            "Karpador"
+          ],
+          "explanation": "Mewtu trägt die Nummer 150 im Nationalen Pokédex."
+        }
+      }
+    },
+    {
+      "id": 30069,
+      "topic": "Défis multimédias",
+      "level": "Facile",
+      "Question": "Quel instrument optique est visible sur la paillasse du laboratoire ?",
+      "options": [
+        "Un microscope",
+        "Un télescope",
+        "Des jumelles",
+        "Une loupe"
+      ],
+      "correct": 0,
+      "explanation": "On distingue un microscope sur la paillasse du laboratoire. Cette image est un exemple intégré au jeu.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which optical instrument can you see on the laboratory workbench?",
+          "options": [
+            "A microscope",
+            "A telescope",
+            "Binoculars",
+            "A magnifying glass"
+          ],
+          "explanation": "A microscope is visible on the workbench. This is a built-in demonstration image."
+        },
+        "nl": {
+          "Question": "Welk optisch instrument zie je op de werktafel in het laboratorium?",
+          "options": [
+            "Een microscoop",
+            "Een telescoop",
+            "Een verrekijker",
+            "Een vergrootglas"
+          ],
+          "explanation": "Op de werktafel staat een microscoop. Deze afbeelding is een ingebouwd voorbeeld."
+        },
+        "de": {
+          "Question": "Welches optische Instrument ist auf dem Labortisch zu sehen?",
+          "options": [
+            "Ein Mikroskop",
+            "Ein Teleskop",
+            "Ein Fernglas",
+            "Eine Lupe"
+          ],
+          "explanation": "Auf dem Labortisch steht ein Mikroskop. Das Bild ist ein integriertes Beispiel."
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 30070,
+      "topic": "Défis multimédias",
+      "level": "Normal",
+      "Question": "Que font les trois notes de cet extrait sonore ?",
+      "options": [
+        "Elles montent en hauteur",
+        "Elles descendent en hauteur",
+        "Elles gardent la même hauteur",
+        "Elles sont totalement silencieuses"
+      ],
+      "correct": 0,
+      "explanation": "Les trois notes deviennent progressivement plus aiguës. Il s’agit d’un son original de démonstration, pas d’un cri Pokémon.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "What happens to the pitch of the three notes in this sound?",
+          "options": [
+            "The pitch rises",
+            "The pitch falls",
+            "The pitch stays the same",
+            "The sound is silent"
+          ],
+          "explanation": "The three notes rise in pitch. This is an original demo sound, not a Pokémon cry."
+        },
+        "nl": {
+          "Question": "Wat gebeurt er met de toonhoogte van de drie noten?",
+          "options": [
+            "De toonhoogte stijgt",
+            "De toonhoogte daalt",
+            "De toonhoogte blijft gelijk",
+            "Er is geen geluid"
+          ],
+          "explanation": "De drie tonen worden steeds hoger. Dit is een eigen demonstratiegeluid, geen Pokémon-kreet."
+        },
+        "de": {
+          "Question": "Was passiert mit der Tonhöhe der drei Töne?",
+          "options": [
+            "Sie wird höher",
+            "Sie wird tiefer",
+            "Sie bleibt gleich",
+            "Es ist nichts zu hören"
+          ],
+          "explanation": "Die Tonhöhe der drei Töne steigt. Es handelt sich um einen eigens erstellten Demoton, keinen Pokémon-Ruf."
+        }
+      },
+      "media": "audio",
+      "mediaAsset": "notesAudio"
+    },
+    {
+      "id": 30071,
+      "topic": "Défis multimédias",
+      "level": "Normal",
+      "Question": "Dans cette courte vidéo, quelle couleur domine l’éclairage des appareils du laboratoire ?",
+      "options": [
+        "Bleu cyan",
+        "Rouge",
+        "Jaune",
+        "Vert"
+      ],
+      "correct": 0,
+      "explanation": "Les appareils du laboratoire diffusent surtout une lumière bleu cyan. La vidéo est un exemple animé du décor du jeu.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "In this short video, which light color dominates the laboratory devices?",
+          "options": [
+            "Cyan blue",
+            "Red",
+            "Yellow",
+            "Green"
+          ],
+          "explanation": "The laboratory devices glow mainly cyan blue. This is an animated demonstration of the game environment."
+        },
+        "nl": {
+          "Question": "Welke lichtkleur overheerst in de apparaten van het laboratorium in deze video?",
+          "options": [
+            "Cyaanblauw",
+            "Rood",
+            "Geel",
+            "Groen"
+          ],
+          "explanation": "De apparaten geven vooral cyaanblauw licht. Dit is een geanimeerd voorbeeld van het spel."
+        },
+        "de": {
+          "Question": "Welche Lichtfarbe dominiert bei den Laborgeräten in diesem Video?",
+          "options": [
+            "Cyanblau",
+            "Rot",
+            "Gelb",
+            "Grün"
+          ],
+          "explanation": "Die Laborgeräte leuchten überwiegend cyanblau. Dies ist ein animiertes Beispiel aus der Spielumgebung."
+        }
+      },
+      "media": "video",
+      "mediaAsset": "labVideo"
+    },
+    {
+      "id": 30072,
+      "topic": "Défis multimédias",
+      "level": "Facile",
+      "Question": "Quel objet de capture Pokémon aperçoit-on dans ce laboratoire ?",
+      "options": [
+        "Une Poké Ball",
+        "Une Potion",
+        "Une Pierre Feu",
+        "Un Rappel"
+      ],
+      "correct": 0,
+      "explanation": "Plusieurs Poké Balls sont visibles dans le décor. Cette image sert d’exemple multimédia.",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon-catching item can you spot in this laboratory?",
+          "options": [
+            "A Poké Ball",
+            "A Potion",
+            "A Fire Stone",
+            "A Revive"
+          ],
+          "explanation": "Several Poké Balls are visible in the lab. This image is a media demonstration."
+        },
+        "nl": {
+          "Question": "Welk voorwerp om Pokémon te vangen zie je in het laboratorium?",
+          "options": [
+            "Een Poké Ball",
+            "Een Potion",
+            "Een Fire Stone",
+            "Een Revive"
+          ],
+          "explanation": "Er zijn verschillende Poké Balls te zien. De afbeelding is een multimedia-demonstratie."
+        },
+        "de": {
+          "Question": "Welchen Gegenstand zum Fangen von Pokémon siehst du im Labor?",
+          "options": [
+            "Einen Pokéball",
+            "Einen Trank",
+            "Einen Feuerstein",
+            "Einen Beleber"
+          ],
+          "explanation": "Im Labor sind mehrere Pokébälle zu sehen. Das Bild dient als Multimedia-Beispiel."
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+     {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Dans quelles régions Pokémon GO permet-il principalement de trouver Chartor à l'état sauvage ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel Pokémon ne se trouve pas dans les Mines de Galar parmi ces choix ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Comment s'appelait le projet à l'origine de Pokémon ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel Pokémon peut utiliser Morphing en plus de Métamorph dans certains jeux ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Comment obtient-on un œuf de Nidoran dans les jeux où sa reproduction est possible ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+     {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quels jeux Pokémon principaux sont sortis en Corée du Sud en premier parmi ces choix ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+     {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quelle Ball utilise Sacha pour capturer Kaiminus dans l'anime ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+     {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quelle génération possède un Pokédex régional qui ne commence pas par un starter ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel Pokémon fabuleux conserve un Animacœur dans son corps mécanique ",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel est le taux de shiny par œuf en septième génération avec Masuda et le Charme Chroma ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Combien de villes et de villages principaux trouve-t-on dans la région de Hoenn dans Pokémon Rubis et Saphir ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel Pokémon ne trouve-t-on pas dans le Bois de Clairjour parmi ces choix ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel Pokémon ne trouve-t-on pas dans le Bois de Clairjour parmi ces choix ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel est le type préféré de Madame Élige ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "En quelle année a été diffusé le premier épisode de l'anime dans lequel apparaît Embrylex ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel Pokémon Éon de type Dragon/Psy peut voler plus vite qu'un avion à réaction ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel Pokémon se trouve entre Cizayox et Scarhino dans le Pokédex national ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Combien de Pokémon étaient répertoriés après la neuvième génération, jusqu'à Terapagos inclus ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "De quel bandit célèbre les noms Jessie et James sont-ils inspirés ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel est le taux de rencontre d'un Pokémon chromatique obtenu par œuf en septième génération sans bonus ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Sur quelle console est sorti Pokémon : Attrapez les nombres ! ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "Quel Pokémon possède une bouche décrite comme mesurant deux mètres de diamètre ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Très difficile",
+      "Question": "  Quel Pokémon apparaît dans l'épisode 762 de l'anime selon le découpage international ?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "?",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
     }
-]
+    
+    
+  ]
+}

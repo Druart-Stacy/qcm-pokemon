@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.env
+fichiers.txt
+tailles.txt
+$null
