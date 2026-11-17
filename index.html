@@ -3,450 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QCM Pokémon</title>
-    <style>
-        
-        * { box-sizing: border-box; }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            background: #f0f0f0;
-        }
-
-        .conteneur {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            width: 100%;
-        }
-
-        h1, h2 { color: #333; }
-        p { line-height: 1.5; }
-
-        .ecran { display: none; }
-        .ecran.actif { display: block; }
-
-        .choix, .reponses {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin: 20px 0;
-        }
-
-        button {
-            padding: 12px 20px;
-            font-size: 16px;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            background: white;
-            cursor: pointer;
-            transition: background-color 0.2s, border-color 0.2s;
-        }
-
-        button:hover:not(:disabled) { background: #e9e9e9; }
-        button:disabled { cursor: not-allowed; opacity: 0.75; }
-
-        .reponse-btn { text-align: left; }
-        .reponse-btn.correct {
-            background: #d4edda;
-            border-color: #28a745;
-            color: #155724;
-        }
-        .reponse-btn.incorrect {
-            background: #f8d7da;
-            border-color: #dc3545;
-            color: #721c24;
-        }
-
-        .bouton-principal {
-            background: #4CAF50;
-            color: white;
-            border: none;
-        }
-        .bouton-principal:hover:not(:disabled) { background: #45a049; }
-        .bouton-principal:disabled { background: #ccc; }
-
-        #imageQuestion {
-            display: none;
-            max-width: 100%;
-            max-height: 260px;
-            object-fit: contain;
-            border-radius: 8px;
-            margin-bottom: 15px;
-        }
-
-        #message {
-            margin-top: 15px;
-            min-height: 27px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        #score, #progression { color: #555; }
-        .petit { color: #666; font-size: 14px; }
+    <link rel="stylesheet" href="style.css">
     
-    </style>
+    <title>QCM Pokémon</title>
+   
     
 </head>
 <body>
+    <canvas id="reseau"></canvas>
     
-    <main class="conteneur">
-        <!-- ÉCRAN 1 : PROFIL -->
-        <section id="ecran-age" class="ecran actif">
-            <h1>QCM Pokémon</h1>
-            <h2>Choisis ton profil</h2>
-            <p>Cette sélection détermine les niveaux disponibles dans le quiz.</p>
-            <div class="choix">
-                <button type="button" onclick="configurerJeu('mineur')">Moins de 18 ans</button>
-                <button type="button" onclick="configurerJeu('majeur')">18 ans ou plus</button>
+    
+    
+
+      <main class="pokedex" id="pokedex">
+
+    <!-- PARTIE ROUGE SUPÉRIEURE -->
+    <div class="pokedex-haut" id="pokedexHaut">
+
+        <div class="camera"></div>
+
+        <div class="ecran-haut">
+            <div class="ecran-contenu">
+                <h1>POKÉDEX DE KALOS</h1>
+                <p>Bienvenue dans le monde Pokémon !</p>
             </div>
-        </section>
-
-        <!-- ÉCRAN 2 : NIVEAU -->
-        <section id="ecran-niveau" class="ecran">
-            <h2>Choisis ton niveau</h2>
-            <p id="texte-niveaux"></p>
-            <div id="choix-niveaux" class="choix"></div>
-            <button type="button" onclick="retourProfil()">Retour</button>
-        </section>
-
-        <!-- ÉCRAN 3 : QUIZ -->
-        <section id="ecran-quiz" class="ecran">
-            <p id="progression"></p>
-            <h2 id="questionText">Chargement de la question...</h2>
-            <img id="imageQuestion" src="" alt="Illustration de la question">
-            <div class="reponses" id="reponses"></div>
-            <button type="button" id="monBouton" class="bouton-principal" disabled>Suivant</button>
-            <p id="message" aria-live="polite"></p>
-            <p id="score">Score : 0 / 0</p>
-        </section>
-
-        <!-- ÉCRAN 4 : RÉSULTAT -->
-        <section id="ecran-resultat" class="ecran">
-            <h2>Quiz terminé !</h2>
-            <p id="resultatFinal"></p>
-            <button type="button" class="bouton-principal" onclick="retourNiveaux()">Choisir un autre niveau</button>
-            <button type="button" onclick="retourProfil()">Changer de profil</button>
-        </section>
-    </main>
-
-    <script>
-       
-// ==========================================
-// 1. DONNÉES ET ÉTAT DU QUIZ
-// ==========================================
-
-let toutesLesQuestions = [];
-let questions = [];
-let niveauxDisponibles = [];
-let niveauChoisi = null;
-let questionIndex = 0;
-let score = 0;
-let reponseSelectionnee = false;
-
-// Correspondance entre les niveaux du jeu et du JSON
-const niveaux = {
-    1: "Facile",
-    2: "Normal",
-    3: "Difficile",
-    4: "Expert"
-};
-
-// ==========================================
-// 2. ÉLÉMENTS HTML
-// ==========================================
-
-const ecranAge = document.getElementById("ecran-age");
-const ecranNiveau = document.getElementById("ecran-niveau");
-const ecranQuiz = document.getElementById("ecran-quiz");
-const ecranResultat = document.getElementById("ecran-resultat");
-
-const questionText = document.getElementById("questionText");
-const reponsesDiv = document.getElementById("reponses");
-const imageQuestion = document.getElementById("imageQuestion");
-const boutonSuivant = document.getElementById("monBouton");
-const message = document.getElementById("message");
-const scoreElement = document.getElementById("score");
-const progression = document.getElementById("progression");
-
-// ==========================================
-// 3. AFFICHER UN ÉCRAN
-// ==========================================
-
-function afficherEcran(ecranActif) {
-    [ecranAge, ecranNiveau, ecranQuiz, ecranResultat]
-        .forEach(ecran => ecran.classList.remove("actif"));
-
-    ecranActif.classList.add("actif");
-}
-
-// ==========================================
-// 4. CHARGER LE JSON
-// ==========================================
-
-async function chargerQuestions() {
-    try {
-        const response = await fetch("pokemon.json");
-
-        if (!response.ok) {
-            throw new Error("Impossible de charger pokemon.json");
-        }
-
-        const data = await response.json();
-
-        if (!Array.isArray(data.questions)) {
-            throw new Error("Le tableau questions est introuvable.");
-        }
-
-        // Garder uniquement les questions actives
-        toutesLesQuestions = data.questions.filter(
-            question => question.active === true
-        );
+        </div>
+
+        <div class="voyants">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+    <!-- ÉCRAN CENTRAL -->
+    <div class="pokedex-ecran">
+
+        <div class="ecran-bleu">
+
+            <section id="ecran-age" class="ecran actif">
+                <h2>Choisis ton profil</h2>
+                <p>Cette sélection détermine les niveaux disponibles.</p>
+
+                <div class="choix">
+                    <button type="button" onclick="configurerJeu('mineur')">
+                        Moins de 18 ans
+                    </button>
+
+                    <button type="button" onclick="configurerJeu('majeur')">
+                        18 ans ou plus
+                    </button>
+                </div>
+            </section>
+
+            <section id="ecran-niveau" class="ecran">
+                <h2>Choisis ton niveau</h2>
+                <p id="texte-niveaux"></p>
+                <div id="choix-niveaux" class="choix"></div>
+                <button type="button" onclick="retourProfil()">Retour</button>
+            </section>
+
+            <section id="ecran-quiz" class="ecran">
+                <p id="progression"></p>
+                <h2 id="questionText">Chargement...</h2>
+                <img id="imageQuestion" src="" alt="Illustration">
+                <div class="reponses" id="reponses"></div>
+                <button type="button" id="monBouton" class="bouton-principal" disabled>
+                    Suivant
+                </button>
+                <p id="message" aria-live="polite"></p>
+                <p id="score">Score : 0 / 0</p>
+            </section>
+
+            <section id="ecran-resultat" class="ecran">
+                <h2>Quiz terminé !</h2>
+                <p id="resultatFinal"></p>
+
+                <button type="button" class="bouton-principal" onclick="retourNiveaux()">
+                    Choisir un autre niveau
+                </button>
+
+                <button type="button" onclick="retourProfil()">
+                    Changer de profil
+                </button>
+            </section>
+
+        </div>
+
+    </div>
+
+    <!-- PARTIE ROUGE INFÉRIEURE -->
+    <div class="pokedex-bas" id="pokedexBas">
+
+        <div class="boutons-pokedex">
+            <span class="bouton-rond"></span>
+            <span class="bouton-petit"></span>
+            <span class="bouton-petit"></span>
+        </div>
+
+    </div>
+
+</main>
+    <script src="script.js"></script>
 
-        console.log("Questions chargées :", toutesLesQuestions.length);
-
-    } catch (erreur) {
-        console.error("Erreur :", erreur);
-
-        alert("Impossible de charger pokemon.json.");
-    }
-}
-
-// ==========================================
-// 5. CHOISIR LE PROFIL
-// ==========================================
-
-function configurerJeu(profil) {
-
-    if (profil === "mineur") {
-        niveauxDisponibles = [1, 2];
-    } else {
-        niveauxDisponibles = [1, 2, 3, 4];
-    }
-
-    afficherChoixNiveaux();
-    afficherEcran(ecranNiveau);
-}
-
-function afficherChoixNiveaux() {
-
-    const zone = document.getElementById("choix-niveaux");
-    const texte = document.getElementById("texte-niveaux");
-
-    zone.innerHTML = "";
-
-    texte.textContent = "Niveaux disponibles :";
-
-    niveauxDisponibles.forEach(niveau => {
-
-        const bouton = document.createElement("button");
-
-        bouton.type = "button";
-        bouton.textContent = "Niveau " + niveau + " - " + niveaux[niveau];
-
-        bouton.addEventListener("click", () => {
-            demarrerNiveau(niveau);
-        });
-
-        zone.appendChild(bouton);
-    });
-}
-
-// ==========================================
-// 6. DÉMARRER UN NIVEAU
-// ==========================================
-
-function demarrerNiveau(niveau) {
-
-    niveauChoisi = niveau;
-
-    questions = toutesLesQuestions.filter(
-        question => question.level === niveaux[niveau]
-    );
-
-    if (questions.length === 0) {
-        alert("Aucune question disponible pour ce niveau.");
-        return;
-    }
-
-    // Mélanger les questions
-    questions.sort(() => Math.random() - 0.5);
-
-    questionIndex = 0;
-    score = 0;
-
-    afficherEcran(ecranQuiz);
-    afficherQuestion();
-}
-
-// ==========================================
-// 7. AFFICHER UNE QUESTION
-// ==========================================
-
-function afficherQuestion() {
-
-    if (questionIndex >= questions.length) {
-        afficherResultat();
-        return;
-    }
-
-    const question = questions[questionIndex];
-
-    questionText.textContent = question.Question;
-
-    progression.textContent =
-        "Niveau " + niveauChoisi +
-        " - Question " + (questionIndex + 1) +
-        " / " + questions.length;
-
-    message.textContent = "";
-
-    reponseSelectionnee = false;
-    boutonSuivant.disabled = true;
-
-    // Image facultative
-    imageQuestion.style.display = "none";
-    imageQuestion.removeAttribute("src");
-
-    reponsesDiv.innerHTML = "";
-
-    // Lire les propositions depuis options
-    question.options.forEach((reponse, index) => {
-
-        const bouton = document.createElement("button");
-
-        bouton.type = "button";
-        bouton.className = "reponse-btn";
-        bouton.textContent = reponse;
-
-        bouton.addEventListener("click", () => {
-            verifierReponse(index, question);
-        });
-
-        reponsesDiv.appendChild(bouton);
-    });
-
-    boutonSuivant.textContent =
-        questionIndex === questions.length - 1
-            ? "Voir le résultat"
-            : "Suivant";
-
-    scoreElement.textContent =
-        "Score : " + score + " / " + questionIndex;
-}
-
-// ==========================================
-// 8. VÉRIFIER LA RÉPONSE
-// ==========================================
-
-function verifierReponse(indexChoisi, question) {
-
-    if (reponseSelectionnee) return;
-
-    reponseSelectionnee = true;
-
-    const boutons = reponsesDiv.querySelectorAll(".reponse-btn");
-
-    // correct commence à 0 dans le JSON
-    const bonneIndex = Number(question.correct);
-
-    if (
-        !Number.isInteger(bonneIndex) ||
-        bonneIndex < 0 ||
-        bonneIndex >= question.options.length
-    ) {
-        message.textContent = "Erreur dans la bonne réponse du JSON.";
-        message.style.color = "#dc3545";
-
-    } else if (indexChoisi === bonneIndex) {
-
-        boutons[indexChoisi].classList.add("correct");
-
-        score++;
-
-        message.textContent = "Bonne réponse !";
-        message.style.color = "#28a745";
-
-    } else {
-
-        boutons[indexChoisi].classList.add("incorrect");
-
-        boutons[bonneIndex].classList.add("correct");
-
-        message.textContent = "Mauvaise réponse !";
-        message.style.color = "#dc3545";
-    }
-
-    // Afficher l'explication
-    if (question.explanation) {
-        message.textContent += " " + question.explanation;
-    }
-
-    boutons.forEach(bouton => {
-        bouton.disabled = true;
-    });
-
-    boutonSuivant.disabled = false;
-
-    scoreElement.textContent =
-        "Score : " + score + " / " + (questionIndex + 1);
-}
-
-// ==========================================
-// 9. QUESTION SUIVANTE
-// ==========================================
-
-boutonSuivant.addEventListener("click", () => {
-
-    if (!reponseSelectionnee) return;
-
-    questionIndex++;
-
-    afficherQuestion();
-});
-
-// ==========================================
-// 10. RÉSULTAT FINAL
-// ==========================================
-
-function afficherResultat() {
-
-    document.getElementById("resultatFinal").textContent =
-        "Tu as obtenu " + score +
-        " bonne(s) réponse(s) sur " +
-        questions.length +
-        " au niveau " + niveauChoisi + ".";
-
-    afficherEcran(ecranResultat);
-}
-
-// ==========================================
-// 11. NAVIGATION
-// ==========================================
-
-function retourNiveaux() {
-    afficherEcran(ecranNiveau);
-}
-
-function retourProfil() {
-    afficherEcran(ecranAge);
-}
-
-// ==========================================
-// 12. LANCEMENT
-// ==========================================
-
-chargerQuestions();
-
-    </script>
 </body>
 </html>
 

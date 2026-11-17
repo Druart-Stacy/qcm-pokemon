@@ -1,0 +1,466 @@
+/* ==========================================
+   1. BASE DE LA PAGE
+========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        110deg,
+        #08c9d8,
+        #078bbd,
+        #0864a8
+    );
+
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Fond animé */
+
+#reseau {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* ==========================================
+   2. COQUE DU POKÉDEX
+========================================== */
+
+.pokedex {
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    padding: 20px;
+
+    background: linear-gradient(
+        145deg,
+        #fa4545,
+        #bd101b
+    );
+
+    border: 4px solid #8d1018;
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.4),
+        inset 0 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+/* ==========================================
+   3. PARTIE SUPÉRIEURE
+========================================== */
+
+.pokedex-haut {
+    position: relative;
+    padding: 20px;
+
+    background: linear-gradient(
+        145deg,
+        #ed3039,
+        #b81420
+    );
+
+    border-radius: 15px;
+}
+
+/* Caméra */
+
+.camera {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 15px;
+
+    background: #17202a;
+    border: 4px solid #777;
+    border-radius: 50%;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Écran supérieur */
+
+.ecran-haut {
+    min-height: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #172c42;
+    border: 8px solid #333;
+    border-radius: 10px;
+
+    color: white;
+    text-align: center;
+}
+
+.ecran-contenu {
+    padding: 10px;
+}
+
+.ecran-contenu h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.ecran-contenu p {
+    color: #bdeaff;
+    margin: 0;
+}
+
+/* Voyants lumineux */
+
+.voyants {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.voyants span {
+    width: 10px;
+    height: 10px;
+
+    background: #50eaff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+    box-shadow: 0 0 6px #50eaff;
+}
+
+/* ==========================================
+   4. CHARNIÈRE
+========================================== */
+
+.pokedex-charniere {
+    height: 18px;
+    margin: 0 -20px;
+
+    background: linear-gradient(
+        #8d1018,
+        #e52a35,
+        #8d1018
+    );
+
+    border-top: 2px solid #8d1018;
+    border-bottom: 2px solid #8d1018;
+}
+
+/* ==========================================
+   5. PARTIE INFÉRIEURE
+========================================== */
+
+.pokedex-bas {
+    padding: 20px;
+
+    background: linear-gradient(
+        145deg,
+        #ed3039,
+        #b81420
+    );
+
+    border-radius: 15px;
+}
+
+/* Écran tactile bleu */
+
+.ecran-bleu {
+    min-height: 350px;
+    padding: 25px;
+
+    background: linear-gradient(
+        145deg,
+        #d8f4ff,
+        #a9ddf5
+    );
+
+    border: 10px solid #263b50;
+    border-radius: 12px;
+
+    box-shadow:
+        inset 0 0 12px rgba(0, 0, 0, 0.2),
+        0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================
+   6. ÉCRANS DU QCM
+========================================== */
+
+.ecran {
+    display: none;
+}
+
+.ecran.actif {
+    display: block;
+}
+
+h1,
+h2 {
+    color: #174b6c;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Choix des profils et niveaux */
+
+.choix,
+.reponses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/* ==========================================
+   7. BOUTONS DU QCM
+========================================== */
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+
+    border: 2px solid #ddd;
+    border-radius: 8px;
+
+    background: white;
+    color: #174b6c;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s,
+        border-color 0.2s,
+        transform 0.2s;
+}
+
+button:hover:not(:disabled) {
+    background: #e9e9e9;
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.75;
+}
+
+/* Réponses */
+
+.reponse-btn {
+    text-align: left;
+}
+
+.reponse-btn.correct {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.reponse-btn.incorrect {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+/* Bouton principal */
+
+.bouton-principal {
+    background: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.bouton-principal:hover:not(:disabled) {
+    background: #45a049;
+}
+
+.bouton-principal:disabled {
+    background: #ccc;
+}
+
+/* ==========================================
+   8. IMAGE DES QUESTIONS
+========================================== */
+
+#imageQuestion {
+    display: none;
+    max-width: 100%;
+    max-height: 200px;
+
+    object-fit: contain;
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+}
+
+/* ==========================================
+   9. MESSAGE ET SCORE
+========================================== */
+
+#message {
+    min-height: 27px;
+    margin-top: 15px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#score,
+#progression {
+    color: #174b6c;
+}
+
+.petit {
+    color: #666;
+    font-size: 14px;
+}
+
+/* ==========================================
+   10. BOUTONS PHYSIQUES DU POKÉDEX
+========================================== */
+
+.boutons-pokedex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 18px;
+}
+
+.bouton-rond {
+    width: 38px;
+    height: 38px;
+
+    background: #172c42;
+    border: 4px solid #555;
+    border-radius: 50%;
+
+    box-shadow: 0 3px 5px #650812;
+}
+
+.bouton-petit {
+    width: 25px;
+    height: 9px;
+
+    background: #333;
+    border-radius: 10px;
+}
+
+/* ==========================================
+   11. ADAPTATION AUX MOBILES
+========================================== */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 12px 8px;
+        align-items: center;
+    }
+
+    .pokedex {
+        padding: 8px;
+        border-radius: 18px;
+    }
+
+    .pokedex-haut {
+        padding: 35px 12px 15px;
+    }
+
+    .ecran-haut {
+        min-height: 90px;
+    }
+
+    .ecran-contenu h1 {
+        font-size: 16px;
+    }
+
+    .ecran-contenu p {
+        font-size: 13px;
+    }
+
+    .pokedex-bas {
+        padding: 12px;
+    }
+
+    .ecran-bleu {
+        min-height: 300px;
+        padding: 15px;
+        border-width: 6px;
+    }
+
+    .ecran-bleu h2 {
+        font-size: 19px;
+    }
+
+    .ecran-bleu button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .pokedex-charniere {
+        height: 12px;
+        margin: 0 -8px;
+    }
+
+    .boutons-pokedex {
+        gap: 10px;
+    }
+}
+
+/* =================================
+   12. OUVERTURE COULISSANTE
+================================= */
+
+.pokedex {
+    position: relative;
+    overflow: visible;
+}
+
+.pokedex-haut {
+    position: relative;
+    z-index: 2;
+    transition: transform 1.5s ease-in-out;
+}
+
+.pokedex-bas {
+    position: relative;
+    z-index: 2;
+}
+
+.pokedex-ecran {
+    position: relative;
+    z-index: 1;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+
+    transition:
+        max-height 1.5s ease-in-out,
+        opacity 1s ease-in-out;
+}
+
+.pokedex.ouvert .pokedex-haut {
+    transform: translateY(-100%);
+}
+
+.pokedex.ouvert .pokedex-ecran {
+    max-height: 700px;
+    opacity: 1;
+}
