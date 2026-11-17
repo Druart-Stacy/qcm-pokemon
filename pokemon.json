@@ -3487,12 +3487,12 @@
       "level": "Très difficile",
       "Question": "Dans quelles régions Pokémon GO permet-il principalement de trouver Chartor à l'état sauvage ?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "Océanie",
+        "Europe",
+        "Asie du Sud-Est,Inde",
+        "Afrique"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "",
       "selected": null,
       "active": true,
@@ -3534,15 +3534,15 @@
     {
       "id": 0,
       "topic": "Défis multimédias",
-      "level": "Très difficile",
+      "level": "Expert",
       "Question": "Quel Pokémon ne se trouve pas dans les Mines de Galar parmi ces choix ?",
       "options": [
         "",
         "",
         "",
-        ""
+        "Racaillou"
       ],
-      "correct": 0,
+      "correct": 3,
       "explanation": "",
       "selected": null,
       "active": true,
