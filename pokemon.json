@@ -7,12 +7,12 @@
       "level": "Facile",
       "Question": "En quel Pokémon évolue Bulbizarre dans les jeux principaux ?",
       "options": [
-        "Herbizarre",
         "Florizarre",
+        "Herbizarre",
         "Carapuce",
         "Reptincel"
       ],
-      "correct": 0,
+      "correct": 1,
       "explanation": "Bulbizarre évolue en Herbizarre.",
       "selected": null,
       "active": true,
@@ -20,8 +20,8 @@
         "en": {
           "Question": "Which Pokémon does Bulbasaur evolve into in the main games?",
           "options": [
-            "Ivysaur",
             "Venusaur",
+            "Ivysaur",
             "Squirtle",
             "Charmeleon"
           ],
@@ -30,8 +30,8 @@
         "nl": {
           "Question": "In welke Pokémon evolueert Bulbasaur in de hoofdspellen?",
           "options": [
-            "Ivysaur",
             "Venusaur",
+            "Ivysaur",
             "Squirtle",
             "Charmeleon"
           ],
@@ -40,8 +40,8 @@
         "de": {
           "Question": "Zu welchem Pokémon entwickelt sich Bisasam in den Hauptspielen?",
           "options": [
-            "Bisaknosp",
             "Bisaflor",
+            "Bisaknosp",
             "Schiggy",
             "Glutexo"
           ],
@@ -3484,7 +3484,7 @@
      {
       "id": 0,
       "topic": "Défis multimédias",
-      "level": "Très difficile",
+      "level": "Expert",
       "Question": "Dans quelles régions Pokémon GO permet-il principalement de trouver Chartor à l'état sauvage ?",
       "options": [
         "Océanie",
@@ -3498,9 +3498,210 @@
       "active": true,
       "translations": {
         "en": {
+          "Question": "In which regions can Torkoal mainly be found in the wild in Pokémon GO?",
+          "options": [
+            "Oceania",
+            "Europe",
+            "Southeast Asia, India",
+            "Africa"
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "In welke regio's kun je Torkoal voornamelijk in het wild vinden in Pokémon GO?",
+          "options": [
+            "Oceanië",
+            "Europa",
+            "Zuidoost-Azië, India",
+            "Afrika"
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "In welchen Regionen kann man Torkoal in Pokémon GO hauptsächlich wild antreffen?",
+          "options": [
+            "Ozeanien",
+            "Europa",
+            "Südostasien, Indien",
+            "Afrika"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quel Pokémon ne se trouve pas dans les Mines de Galar parmi ces choix ?",
+      "options": [
+        "Rototaupe",
+        "Chovsourir",
+        "Taupiqueur",
+        "Racaillou"
+      ],
+      "correct": 3,
+      "explanation": "Which Pokémon cannot be found in the Galar Mine among the following choices?",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
           "Question": "?",
           "options": [
+            "Drilbur",
+            "Woobat",
+            "Diglett",
+            "Geodude"
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Welke Pokémon komt niet voor in de Galar-mijn uit de volgende keuzes?",
+          "options": [
+            "Drilbur",
+            "Woobat",
+            "Diglett",
+            "Geodude"
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Welches Pokémon ist in den folgenden Auswahlmöglichkeiten nicht in der Galar-Mine zu finden?",
+          "options": [
+           "Rotomurf",
+          "Fleknoil",
+            "Digda",
+            "Kleinstein"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Comment s'appelait le projet à l'origine de Pokémon ?",
+      "options": [
+        "Capsule Creatures",
+        "Capsule Monsters",
+        "Monster Capsules",
+        "Capsule Monsters Project"
+      ],
+      "correct": 1,
+      "explanation": "What was the original name of the project that led to the creation of Pokémon?",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "What was the original name of the project that led to the creation of Pokémon?",
+          "options": [
+            "Capsule Creatures",
+            "Capsule Monsters",
+            "Monster Capsules",
+            "Capsule Monsters Project"
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Hoe heette het project dat aan de oorsprong van Pokémon lag?",
+          "options": [
+            "Capsule Creatures",
+            "Capsule Monsters",
+            "Monster Capsules",
+            "Capsule Monsters Project"
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Wie hieß das ursprüngliche Projekt, aus dem Pokémon hervorging?",
+          "options": [
+            "Capsule Creatures",
+            "Capsule Monsters",
+            "Monster Capsules",
+            "Capsule Monsters Project"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quel Pokémon peut utiliser Morphing en plus de Métamorph dans certains jeux ?",
+      "options": [
+        "",
+        "",
+        "Mewtwo",
+        "Mew"
+      ],
+      "correct": 3,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "What was the original name of the project that led to the creation of Pokémon?",
+          "options": [
             "",
+            "",
+            "Mewtwo",
+            "Mew"
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Welke Pokémon kan, naast Ditto, in bepaalde spellen Transformeren gebruiken?",
+          "options": [
+            "",
+            "",
+            "Mewtwo",
+            "Mew"
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Welches Pokémon kann neben Ditto in bestimmten Spielen die Attacke Wandler einsetzen?",
+          "options": [
+            "",
+            "",
+            "Mewtwo",
+            "Mew"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    
+     {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quelle Ball utilise Sacha pour capturer Kaiminus dans l'anime ?",
+      "options": [
+        "l’Appât Ball",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Poké Ball does Ash use to catch Totodile in the anime?",
+          "options": [
+            "Lure Ball",
             "",
             "",
             ""
@@ -3508,9 +3709,9 @@
           "explanation": ""
         },
         "nl": {
-          "Question": "?",
+          "Question": "Welke Poké Ball gebruikt Ash om Totodile te vangen in de anime?",
           "options": [
-            "",
+            "Lokaasbal",
             "",
             "",
             ""
@@ -3518,9 +3719,161 @@
           "explanation": ""
         },
         "de": {
-          "Question": "?",
+          "Question": "Welchen Pokéball benutzt Ash im Anime, um Karnimani zu fangen?",
+          "options": [
+            "Köderball",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+     {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quelle génération possède un Pokédex régional qui ne commence pas par un starter ?",
+      "options": [
+        "7G",
+        "5G",
+        "6G",
+        "8G"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which generation has a regional Pokédex that does not begin with a starter Pokémon?",
+          "options": [
+            "7G",
+            "5G",
+            "6G",
+            "8G"
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Welke generatie heeft een regionale Pokédex die niet begint met een starter-Pokémon?",
+          "options": [
+            "7G",
+            "5G",
+            "6G",
+            "8G"
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Welche Generation hat einen regionalen Pokédex, der nicht mit einem Starter-Pokémon beginnt?",
+          "options": [
+            "7G",
+            "5G",
+            "6G",
+            "8G"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quel Pokémon fabuleux conserve un Animacœur dans son corps mécanique ",
+      "options": [
+        "",
+        "",
+        "Mangearna",
+        ""
+      ],
+      "correct": 2,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Mythical Pokémon has a Soul-Heart inside its mechanical body?",
           "options": [
             "",
+            "",
+            "Mangearna",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Welke mythische Pokémon heeft een Zielshart in zijn mechanische lichaam?",
+          "options": [
+            "",
+            "",
+            "Mangearna",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Welches Mysteriöse Pokémon trägt ein Seelenherz in seinem mechanischen Körper?",
+          "options": [
+            "",
+            "",
+            "",
+            "Mangearna"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    
+    
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quel est le taux de shiny par œuf en septième génération avec Masuda et le Charme Chroma ?",
+      "options": [
+        "1/683",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "What is the shiny egg hatch rate in Generation VII when using the Masuda Method and the Shiny Charm?",
+          "options": [
+            "1/683",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Wat is de kans op een shiny uit een ei in de zevende generatie met de Masuda-methode en de Shiny Charm?",
+          "options": [
+            "1/683",
+            "",
+            "",
+            ""
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Wie hoch ist die Wahrscheinlichkeit, in der siebten Generation mit der Masuda-Methode und dem Schillerpin ein schillerndes Pokémon aus einem Ei zu erhalten?",
+          "options": [
+            "1/683",
             "",
             "",
             ""
@@ -3535,12 +3888,165 @@
       "id": 0,
       "topic": "Défis multimédias",
       "level": "Expert",
-      "Question": "Quel Pokémon ne se trouve pas dans les Mines de Galar parmi ces choix ?",
+      "Question": "Combien de villes et de villages principaux trouve-t-on dans la région de Hoenn dans Pokémon Rubis et Saphir ?",
       "options": [
-        "",
-        "",
-        "",
-        "Racaillou"
+        "18",
+        "17",
+        "16",
+        "15"
+      ],
+      "correct": 2,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "How many main cities and towns are there in the Hoenn region in Pokémon Ruby and Sapphire?",
+          "options": [
+            "18",
+            "17",
+            "16",
+            "15"
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Hoeveel belangrijke steden en dorpen zijn er in de regio Hoenn in Pokémon Ruby en Sapphire?",
+          "options": [
+            "18",
+            "17",
+            "16",
+            "15"
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Wie viele größere Städte und Dörfer gibt es in der Hoenn-Region in Pokémon Rubin und Saphir?",
+          "options": [
+            "18",
+            "17",
+            "16",
+            "15"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    
+      
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quel Pokémon ne trouve-t-on pas dans le Bois de Clairjour parmi ces choix ?",
+      "options": [
+        "Racaillou ",
+        "Debugant",
+        "Mystherbe",
+        "Tarsal"
+      ],
+      "correct": 0,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "Which Pokémon cannot be found in Petalburg Woods among the following choices?",
+          "options": [
+            "Geodude",
+            "Hitmonchan",
+            "Oddish",
+            "Ralts"
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Welke Pokémon kun je niet vinden in het Petalburg-woud uit de volgende keuzes?",
+          "options": [
+            "Geodude",
+            "Tyrogue",
+            "Oddish",
+            "Ralts"
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Welches Pokémon kann man im Blütenburgwald unter den folgenden Auswahlmöglichkeiten nicht finden?",
+          "options": [
+            "Kleinstein",
+            "Rabauz",
+            "Knofensa",
+            "Trasla"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quel est le type préféré de Madame Élige ?",
+      "options": [
+        "le type Fée",
+        "le type Combat",
+        "le type Feu",
+        "le type Eau"
+      ],
+      "correct": 1,
+      "explanation": "",
+      "selected": null,
+      "active": true,
+      "translations": {
+        "en": {
+          "Question": "What is Madame Élige's favorite type?",
+          "options": [
+            "Fairy-type",
+            "Fighting-type",
+            "Fire-type",
+            "Water-type"
+          ],
+          "explanation": ""
+        },
+        "nl": {
+          "Question": "Wat is het favoriete type van Madame Élige?",
+          "options": [
+            "Feeëntype",
+            "Vecht-type",
+            "Vuurtype",
+            "Watertype"
+          ],
+          "explanation": ""
+        },
+        "de": {
+          "Question": "Was ist Madame Éliges Lieblingstyp?",
+          "options": [
+            "Fee",
+            "Kampf",
+            "Feuer",
+            "Wasser"
+          ],
+          "explanation": ""
+        }
+      },
+      "media": "image",
+      "mediaAsset": "labImage"
+    },
+   
+    {
+      "id": 0,
+      "topic": "Défis multimédias",
+      "level": "Expert",
+      "Question": "Quel Pokémon Éon de type Dragon/Psy peut voler plus vite qu'un avion à réaction ?",
+      "options": [
+        "Mew",
+        "Mewtwo",
+        "Latias",
+        "Latios"
       ],
       "correct": 3,
       "explanation": "",
@@ -3548,32 +4054,32 @@
       "active": true,
       "translations": {
         "en": {
-          "Question": "?",
+          "Question": "Which Dragon/Psychic-type Eon Pokémon can fly faster than a jet plane?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Mew",
+            "Mewtwo",
+            "Latias",
+            "Latios"
           ],
           "explanation": ""
         },
         "nl": {
-          "Question": "?",
+          "Question": "Welke Eon-Pokémon van het type Draak/Psychisch kan sneller vliegen dan een straalvliegtuig?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Mew",
+            "Mewtwo",
+            "Latias",
+            "Latios"
           ],
           "explanation": ""
         },
         "de": {
-          "Question": "?",
+          "Question": "Welches Drachen/Psycho-Eon-Pokémon kann schneller fliegen als ein Düsenflugzeug?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Mew",
+            "Mewtwo",
+            "Latias",
+            "Latios"
           ],
           "explanation": ""
         }
@@ -3584,796 +4090,46 @@
     {
       "id": 0,
       "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Comment s'appelait le projet à l'origine de Pokémon ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quel Pokémon peut utiliser Morphing en plus de Métamorph dans certains jeux ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Comment obtient-on un œuf de Nidoran dans les jeux où sa reproduction est possible ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-     {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quels jeux Pokémon principaux sont sortis en Corée du Sud en premier parmi ces choix ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-     {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quelle Ball utilise Sacha pour capturer Kaiminus dans l'anime ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-     {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quelle génération possède un Pokédex régional qui ne commence pas par un starter ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quel Pokémon fabuleux conserve un Animacœur dans son corps mécanique ",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quel est le taux de shiny par œuf en septième génération avec Masuda et le Charme Chroma ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Combien de villes et de villages principaux trouve-t-on dans la région de Hoenn dans Pokémon Rubis et Saphir ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quel Pokémon ne trouve-t-on pas dans le Bois de Clairjour parmi ces choix ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quel Pokémon ne trouve-t-on pas dans le Bois de Clairjour parmi ces choix ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quel est le type préféré de Madame Élige ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "En quelle année a été diffusé le premier épisode de l'anime dans lequel apparaît Embrylex ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "Quel Pokémon Éon de type Dragon/Psy peut voler plus vite qu'un avion à réaction ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
+      "level": "Expert",
       "Question": "Quel Pokémon se trouve entre Cizayox et Scarhino dans le Pokédex national ?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "Écrémeuh",
+        "Insolourdo",
+        "Caratroc",
+        "Porygon2"
       ],
-      "correct": 0,
-      "explanation": "",
+      "correct": 2,
+      "explanation":"",
       "selected": null,
       "active": true,
       "translations": {
         "en": {
-          "Question": "?",
+          "Question":  "Which Pokémon is listed between Scizor and Heracross in the National Pokédex?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Miltank",
+            "Dunsparce",
+            "Shuckle",
+            "Porygon2"
           ],
           "explanation": ""
         },
         "nl": {
-          "Question": "?",
+          "Question": "Welke Pokémon staat in de Nationale Pokédex tussen Scizor en Heracross?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Miltank",
+            "Dunsparce",
+            "Shuckle",
+            "Porygon2"
           ],
           "explanation": ""
         },
         "de": {
-          "Question": "?",
+          "Question": "Welches Pokémon steht im Nationalen Pokédex zwischen Scherox und Skaraborn?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Miltank",
+            "Dummisel",
+            "Pottrott",
+            "Porygon2"
           ],
           "explanation": ""
         }
@@ -4384,13 +4140,13 @@
     {
       "id": 0,
       "topic": "Défis multimédias",
-      "level": "Très difficile",
+      "level": "Expert",
       "Question": "Combien de Pokémon étaient répertoriés après la neuvième génération, jusqu'à Terapagos inclus ?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "1 024",
+        "1 020",
+        "1 025",
+        "1 030"
       ],
       "correct": 0,
       "explanation": "",
@@ -4398,32 +4154,32 @@
       "active": true,
       "translations": {
         "en": {
-          "Question": "?",
+          "Question": "How many Pokémon had been registered after the ninth generation, up to and including Terapagos?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "1 024",
+            "1 020",
+            "1 025",
+            "1 030"
           ],
           "explanation": ""
         },
         "nl": {
-          "Question": "?",
+          "Question": "Wie viele Pokémon waren nach der neunten Generation bis einschließlich Terapagos registriert?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "1 024",
+            "1 020",
+            "1 025",
+            "1 030"
           ],
           "explanation": ""
         },
         "de": {
-          "Question": "?",
+          "Question": "Hoeveel Pokémon waren geregistreerd na de negende generatie, tot en met Terapagos?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "1 024",
+            "1 020",
+            "1 025",
+            "1 030"
           ],
           "explanation": ""
         }
@@ -4434,13 +4190,13 @@
     {
       "id": 0,
       "topic": "Défis multimédias",
-      "level": "Très difficile",
+      "level": "Expert",
       "Question": "De quel bandit célèbre les noms Jessie et James sont-ils inspirés ?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "du bandit Jesse James",
+        "du bandit Jesy James",
+        "du bandit Jesse Janes",
+        "du bandit James Jesse"
       ],
       "correct": 0,
       "explanation": "",
@@ -4448,32 +4204,32 @@
       "active": true,
       "translations": {
         "en": {
-          "Question": "?",
+          "Question": "Which famous outlaw inspired the names Jessie and James?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Der Bandit Jesse James",
+            "Der Bandit Jesy James",
+            "Der Bandit Jesse Janes",
+            "Der Bandit James Jesse"
           ],
           "explanation": ""
         },
         "nl": {
-          "Question": "?",
+          "Question": "Welke beroemde bandiet vormde de inspiratie voor de namen Jessie en James?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "De bandiet Jesse James",
+            "De bandiet Jesy James",
+            "De bandiet Jesse Janes",
+            "De bandiet James Jesse"
           ],
           "explanation": ""
         },
         "de": {
-          "Question": "?",
+          "Question": "Welcher berühmte Bandit war die Inspiration für die Namen Jessie und James?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Der Bandit Jesse James",
+            "Der Bandit Jesy James",
+            "Der Bandit Jesse Janes",
+            "Der Bandit James Jesse"
           ],
           "explanation": ""
         }
@@ -4484,46 +4240,46 @@
     {
       "id": 0,
       "topic": "Défis multimédias",
-      "level": "Très difficile",
+      "level": "Expert",
       "Question": "Quel est le taux de rencontre d'un Pokémon chromatique obtenu par œuf en septième génération sans bonus ?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "1/5096",
+        "1/6000",
+        "1/4096",
+        "1/5000"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "",
       "selected": null,
       "active": true,
       "translations": {
         "en": {
-          "Question": "?",
+          "Question": "What is the shiny encounter rate for an Egg-hatched Pokémon in Generation VII without any bonuses?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "1/5096",
+            "1/6000",
+            "1/4096",
+            "1/5000"
           ],
           "explanation": ""
         },
         "nl": {
-          "Question": "?",
+          "Question": "Wat is de kans op een shiny Pokémon uit een ei in de zevende generatie zonder enige bonus?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "1/5096",
+            "1/6000",
+            "1/4096",
+            "1/5000"
           ],
           "explanation": ""
         },
         "de": {
-          "Question": "?",
+          "Question": "Wie hoch ist die Chance, in der siebten Generation ohne jegliche Boni ein schillerndes Pokémon aus einem Ei zu erhalten?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "1/5096",
+            "1/6000",
+            "1/4096",
+            "1/5000"
           ],
           "explanation": ""
         }
@@ -4534,46 +4290,46 @@
     {
       "id": 0,
       "topic": "Défis multimédias",
-      "level": "Très difficile",
+      "level": "Expert",
       "Question": "Sur quelle console est sorti Pokémon : Attrapez les nombres ! ?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "La Nindondo 64",
+        "La Sega Saturn",
+        "La Sega megadrive",
+        "La sega pico"
       ],
-      "correct": 0,
+      "correct": 3,
       "explanation": "",
       "selected": null,
       "active": true,
       "translations": {
         "en": {
-          "Question": "?",
+          "Question": "On which console was Pokémon: Catch the Numbers! released?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "The Nindondo 64",
+            "The Sega Saturn",
+            "The Sega megadrive",
+            "The Sega Pico"
           ],
           "explanation": ""
         },
         "nl": {
-          "Question": "?",
+          "Question": "Op welke spelconsole verscheen Pokémon: Catch the Numbers!?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "De Nindondo 64",
+            "De Sega Saturn",
+            "De Sega megadrive",
+            "De Sega Pico"
           ],
           "explanation": ""
         },
         "de": {
-          "Question": "?",
+          "Question": "Auf welcher Konsole erschien Pokémon: Catch the Numbers!?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Die Nindondo 64",
+            "Die Sega Saturn",
+            "Die Sega megadrive",
+            "Die Sega Pico"
           ],
           "explanation": ""
         }
@@ -4584,96 +4340,46 @@
     {
       "id": 0,
       "topic": "Défis multimédias",
-      "level": "Très difficile",
+      "level": "Expert",
       "Question": "Quel Pokémon possède une bouche décrite comme mesurant deux mètres de diamètre ?",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "Brouhabam",
+        "Hippodocus",
+        "Mysdibule",
+        "Méga-Mysdibule"
       ],
-      "correct": 0,
+      "correct": 1,
       "explanation": "",
       "selected": null,
       "active": true,
       "translations": {
         "en": {
-          "Question": "?",
+          "Question": ". Which Pokémon has a mouth described as being two meters in diameter?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Brouhabam",
+            "Hippodocus",
+            "Mawile",
+            "Mega Mawile"
           ],
           "explanation": ""
         },
         "nl": {
-          "Question": "?",
+          "Question": ". Welke Pokémon heeft een bek die volgens de beschrijving twee meter in diameter is?",
           "options": [
-            "",
-            "",
-            "",
-            ""
+            "Exploud",
+            "Hippowdon",
+            "Mawile",
+            "Mega-Mawile"
           ],
           "explanation": ""
         },
         "de": {
-          "Question": "?",
+          "Question": "Welches Pokémon hat ein Maul, das laut Beschreibung zwei Meter Durchmesser hat?",
           "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        }
-      },
-      "media": "image",
-      "mediaAsset": "labImage"
-    },
-    {
-      "id": 0,
-      "topic": "Défis multimédias",
-      "level": "Très difficile",
-      "Question": "  Quel Pokémon apparaît dans l'épisode 762 de l'anime selon le découpage international ?",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": "",
-      "selected": null,
-      "active": true,
-      "translations": {
-        "en": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "nl": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "explanation": ""
-        },
-        "de": {
-          "Question": "?",
-          "options": [
-            "",
-            "",
-            "",
-            ""
+            "Krawumms",
+            "Hippoterus",
+            "Flunkifer",
+            "Mega-Flunkifer"
           ],
           "explanation": ""
         }
@@ -4681,7 +4387,6 @@
       "media": "image",
       "mediaAsset": "labImage"
     }
-    
     
   ]
 }
