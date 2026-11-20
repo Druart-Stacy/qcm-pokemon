@@ -41,28 +41,49 @@
     <div class="pokedex-ecran">
 
         <div class="ecran-bleu">
+<section id="ecran-age" class="ecran actif">
+    <h2 id="titre-profil">Choisis ton profil</h2>
 
-            <section id="ecran-age" class="ecran actif">
-                <h2>Choisis ton profil</h2>
-                <p>Cette sélection détermine les niveaux disponibles.</p>
+    <p id="description-profil">
+        Cette sélection détermine les niveaux disponibles.
+    </p>
 
-                <div class="choix">
-                    <button type="button" onclick="configurerJeu('mineur')">
-                        Moins de 18 ans
-                    </button>
+    <div class="choix">
+        <button type="button" id="profil-mineur"
+            onclick="configurerJeu('mineur')">
+            Moins de 18 ans
+        </button>
 
-                    <button type="button" onclick="configurerJeu('majeur')">
-                        18 ans ou plus
-                    </button>
-                </div>
-            </section>
+        <button type="button" id="profil-majeur"
+            onclick="configurerJeu('majeur')">
+            18 ans ou plus
+        </button>
+    </div>
+</section>
 
-            <section id="ecran-niveau" class="ecran">
-                <h2>Choisis ton niveau</h2>
-                <p id="texte-niveaux"></p>
-                <div id="choix-niveaux" class="choix"></div>
-                <button type="button" onclick="retourProfil()">Retour</button>
-            </section>
+<section id="ecran-niveau" class="ecran">
+    <h2 id="titre-niveau">Choisis ton niveau</h2>
+
+    <p id="texte-niveaux"></p>
+
+    <div id="choix-niveaux" class="choix"></div>
+
+    <button type="button" id="bouton-retour-profil"
+        onclick="retourProfil()">
+        Retour
+    </button>
+</section>
+
+             <section id="ecran-niveau" class="ecran">
+        <h2 id="titre-niveau">Choisis ton niveau</h2>
+        <p id="texte-niveaux"></p>
+        <div id="choix-niveaux" class="choix"></div>
+
+        <button type="button" id="bouton-retour-profil"
+            onclick="retourProfil()">
+            Retour
+        </button>
+    </section>
 
             <section id="ecran-quiz" class="ecran">
                 <p id="progression"></p>
@@ -105,7 +126,8 @@
     </div>
 
 </main>
-    <script src="script.js"></script>
+<script src="script.js" defer></script>
+    
 
 </body>
 </html>
